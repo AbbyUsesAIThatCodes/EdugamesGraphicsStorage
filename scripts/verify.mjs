@@ -62,3 +62,25 @@ for (const file of (await files('.')).filter(p => p.endsWith('.md') && !p.includ
   }
 }
 console.log(`Verified ${checked} preserved files, ${manifest.assets.length} GLBs, ${inventory.length} inventory entries, export identity, and authored documentation links.`);
+
+// Procedural source packs carry snapshots rather than manufactured mesh exports.
+for (const name of await readdir('packs')) {
+  if (name === 'levers-load-effort-distance') continue;
+  const dir = `packs/${name}`;
+  const record = await json(`${dir}/provenance.json`);
+  for (const entry of record.snapshotFiles) {
+    const data = await readFile(`${dir}/${entry.path}`);
+    assert.equal(createHash('sha256').update(data).digest('hex'), entry.sha256, entry.path);
+    assert.equal(data.length, entry.bytes, entry.path);
+    assert(/^[a-f0-9]{40}$/.test(entry.sourceCommit), 'Full source revision required');
+  }
+  const lines = (await readFile(`${dir}/checksums.sha256`, 'utf8')).trim().split('\n');
+  for (const line of lines) {
+    const [, hash, file] = /^(\w{64})  (.+)$/.exec(line) || [];
+    assert(hash && file, line);
+    assert.equal(createHash('sha256').update(await readFile(`${dir}/${file}`)).digest('hex'), hash, file);
+  }
+  const all = (await files(dir)).map(p => path.relative(dir,p)).filter(p => p !== 'checksums.sha256').sort();
+  assert.deepEqual(lines.map(l => l.slice(66)).sort(), all, 'Complete procedural pack inventory');
+  console.log(`Verified ${name}: ${record.snapshotFiles.length} original source files and ${lines.length} inventory entries.`);
+}
