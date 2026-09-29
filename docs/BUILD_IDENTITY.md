@@ -1,0 +1,35 @@
+# Export Identity
+
+This repository stores game artwork. An export is an asset snapshot, not a new
+game release. It retains the upstream version and codename and has its own
+explicitly local export scope and ordinal.
+
+`scripts/export-levers.mjs` reserves each ordinal atomically in the checkout's
+`.git/graphics-export/ledger.json`, using an exclusive lock directory. Failed
+attempts consume their reservations. A new checkout gets a new UUID scope;
+local exports never claim a PR ordinal. No CI/PR export entrypoint exists.
+
+The export ID contains the source release version/codename, local scope, ordinal,
+one UTC timestamp, storage-repository revision, dirty-input fingerprint when
+applicable, and `graphics` target. The manifest separately records the exact
+upstream game commit. The input fingerprint covers the exporter scripts, source
+snapshot, provenance, and dependency manifests present at export time.
+
+## Location Inventory
+
+| Surface | Location | Status |
+| --- | --- | --- |
+| Version And Codename | Pack `source/release.json`, copied without changes | Preserved Upstream |
+| Ordinal Allocator | `.git/graphics-export/ledger.json` | Local, Atomic |
+| Console | Export start, success, and failure lines | Implemented |
+| Distribution Folder | Pack `exports/<full-id>/` | Implemented |
+| Manifest | Export folder `manifest.json` | Implemented |
+| Embedded Model Metadata | GLB root node `extras.buildId` | Implemented |
+| Current Export | Pack `current-export.json` | Implemented |
+| Asset Catalog | Pack `CATALOG.md` | Links To Identified Files |
+| Game UI And Deployment | No game UI or deployment in this repository | Inapplicable |
+
+GLB round-trip validation reloads each file through Three.js and compares bounds,
+mesh/line/texture counts, and vertex counts. `npm run verify` checks stored
+identities, source hashes, file inventories, GLB structure, and catalog links.
+Opening, copying, or verifying an existing export preserves its identity.

@@ -1,0 +1,13 @@
+{
+  "name": "edugames-graphics-storage",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export:levers": "node scripts/export-levers.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "devDependencies": {
+    "three": "0.180.0",
+    "@napi-rs/canvas": "0.1.100"
+  }
+}

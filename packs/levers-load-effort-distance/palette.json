@@ -1,0 +1,76 @@
+{
+  "colorSpace": "sRGB hex inputs, before lighting/tone mapping",
+  "roles": {
+    "effort": {
+      "model": "#257E73",
+      "ui": "#176B61"
+    },
+    "fulcrum": {
+      "model": "#7952A0",
+      "ui": "#714896"
+    },
+    "load": {
+      "model": "#BF8630",
+      "ui": "#89500B"
+    }
+  },
+  "materials": {
+    "brass": "#B68D46",
+    "steel": "#8BA0A0",
+    "crateBands": "#E9BA61",
+    "cuttingMat": "#426663",
+    "woodBase": "#BDA684",
+    "cactus": "#527E58",
+    "terracotta": "#C79069",
+    "floor": "#E0E7D9"
+  },
+  "ui": {
+    "ink": "#163B39",
+    "background": "#DFE6D9",
+    "creamPanel": "#FFFDF3"
+  },
+  "renderer": {
+    "outputColorSpace": "SRGBColorSpace",
+    "toneMapping": "ACESFilmicToneMapping",
+    "toneMappingExposure": 1.16,
+    "shadowMap": "PCFSoftShadowMap"
+  },
+  "lighting": {
+    "hemisphere": {
+      "sky": "#FFF9E4",
+      "ground": "#788D78",
+      "intensity": 2.3
+    },
+    "key": {
+      "color": "#FFF4DD",
+      "intensity": 3,
+      "position": [
+        -15,
+        24,
+        18
+      ]
+    },
+    "fill": {
+      "color": "#DCECEC",
+      "intensity": 1.8,
+      "position": [
+        16,
+        10,
+        -10
+      ]
+    }
+  },
+  "typography": {
+    "stack": [
+      "Comic Sans MS",
+      "Comic Sans",
+      "Comic Neue",
+      "cursive"
+    ],
+    "bundledFont": "Comic Neue",
+    "weights": [
+      400,
+      700
+    ]
+  }
+}

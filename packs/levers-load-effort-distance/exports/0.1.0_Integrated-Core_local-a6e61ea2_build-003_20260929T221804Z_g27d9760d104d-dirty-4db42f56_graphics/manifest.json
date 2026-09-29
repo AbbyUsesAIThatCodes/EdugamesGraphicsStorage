@@ -1,0 +1,339 @@
+{
+  "id": "0.1.0_Integrated-Core_local-a6e61ea2_build-003_20260929T221804Z_g27d9760d104d-dirty-4db42f56_graphics",
+  "version": "0.1.0",
+  "codename": "Integrated Core",
+  "scope": "local-a6e61ea2",
+  "ordinal": 3,
+  "builtAt": "2026-09-29T22:18:04.571Z",
+  "target": "graphics",
+  "storageRevision": "27d9760d104d40e2f38e5d86609662be20b87ddf",
+  "dirty": true,
+  "inputSHA256": "4db42f5612b562aab051cd392ae3b0d72200260b0a6b9032c29533db44184793",
+  "source": {
+    "repository": "https://github.com/AbbyUsesAIThatCodes/LeversLoadEffortDistance",
+    "commit": "9bfce52767e51ae728ffa9fec717264c554d026b",
+    "ref": "main",
+    "version": "0.1.0",
+    "codename": "Integrated Core"
+  },
+  "pose": "Default game state at zero tilt; isolated weights are 100 g",
+  "millimetersPerUnit": 25,
+  "assets": [
+    {
+      "name": "lever-assembly",
+      "model": "lever-assembly.glb",
+      "meshes": 83,
+      "lines": 0,
+      "textures": 0,
+      "vertices": 5977,
+      "bounds": {
+        "min": [
+          -12.81999999731779,
+          -2.980232227667301e-9,
+          -2.0999999046325684
+        ],
+        "max": [
+          12.81999999731779,
+          10.490932907430071,
+          2.387500000074506
+        ]
+      },
+      "roundTrip": "passed"
+    },
+    {
+      "name": "lever-beam",
+      "model": "lever-beam.glb",
+      "meshes": 54,
+      "lines": 0,
+      "textures": 0,
+      "vertices": 1296,
+      "bounds": {
+        "min": [
+          -12.81999999731779,
+          0,
+          -0.925000011920929
+        ],
+        "max": [
+          12.81999999731779,
+          0.8999999761581421,
+          0.925000011920929
+        ]
+      },
+      "roundTrip": "passed"
+    },
+    {
+      "name": "fulcrum-support",
+      "model": "fulcrum-support.glb",
+      "meshes": 12,
+      "lines": 0,
+      "textures": 0,
+      "vertices": 2302,
+      "bounds": {
+        "min": [
+          -1.850000023841858,
+          0,
+          -2.0999999046325684
+        ],
+        "max": [
+          1.850000023841858,
+          9.560000005364419,
+          2.0999999046325684
+        ]
+      },
+      "roundTrip": "passed"
+    },
+    {
+      "name": "load-crate-100g",
+      "model": "load-crate-100g.glb",
+      "meshes": 5,
+      "lines": 0,
+      "textures": 0,
+      "vertices": 120,
+      "bounds": {
+        "min": [
+          -0.46000000834465027,
+          0,
+          -0.4625000059604645
+        ],
+        "max": [
+          0.46000000834465027,
+          0.8500000238418579,
+          0.4625000059604645
+        ]
+      },
+      "roundTrip": "passed"
+    },
+    {
+      "name": "effort-weight-100g",
+      "model": "effort-weight-100g.glb",
+      "meshes": 3,
+      "lines": 0,
+      "textures": 0,
+      "vertices": 588,
+      "bounds": {
+        "min": [
+          -0.5299999713897705,
+          2.220446049250313e-16,
+          -0.5299999713897705
+        ],
+        "max": [
+          0.5299999713897705,
+          0.6299999982118609,
+          0.5299999713897705
+        ]
+      },
+      "roundTrip": "passed"
+    },
+    {
+      "name": "effort-hanger-100g",
+      "model": "effort-hanger-100g.glb",
+      "meshes": 7,
+      "lines": 0,
+      "textures": 0,
+      "vertices": 1426,
+      "bounds": {
+        "min": [
+          -0.5299999713897705,
+          2.220446049250313e-16,
+          -0.5299999713897705
+        ],
+        "max": [
+          0.5299999713897705,
+          2.409999997913838,
+          0.5299999713897705
+        ]
+      },
+      "roundTrip": "passed"
+    },
+    {
+      "name": "balance-pointer",
+      "model": "balance-pointer.glb",
+      "meshes": 4,
+      "lines": 0,
+      "textures": 0,
+      "vertices": 612,
+      "bounds": {
+        "min": [
+          -0.550000011920929,
+          0,
+          -0.2937499970570206
+        ],
+        "max": [
+          0.550000011920929,
+          5.760000005364418,
+          0.29374999705702104
+        ]
+      },
+      "roundTrip": "passed"
+    },
+    {
+      "name": "workshop-environment",
+      "model": "workshop-environment.glb",
+      "meshes": 18,
+      "lines": 2,
+      "textures": 1,
+      "vertices": 1617,
+      "bounds": {
+        "min": [
+          -100,
+          -6,
+          -100
+        ],
+        "max": [
+          100,
+          42,
+          100
+        ]
+      },
+      "roundTrip": "passed"
+    },
+    {
+      "name": "classroom-and-lever",
+      "model": "classroom-and-lever.glb",
+      "meshes": 101,
+      "lines": 2,
+      "textures": 1,
+      "vertices": 7594,
+      "bounds": {
+        "min": [
+          -100,
+          -6,
+          -100
+        ],
+        "max": [
+          100,
+          42,
+          100
+        ]
+      },
+      "roundTrip": "passed"
+    },
+    {
+      "name": "workbench",
+      "model": "workbench.glb",
+      "meshes": 1,
+      "lines": 0,
+      "textures": 1,
+      "vertices": 24,
+      "bounds": {
+        "min": [
+          -24.5,
+          0,
+          -13.5
+        ],
+        "max": [
+          24.5,
+          0.800000011920929,
+          13.5
+        ]
+      },
+      "roundTrip": "passed"
+    },
+    {
+      "name": "cutting-mat",
+      "model": "cutting-mat.glb",
+      "meshes": 1,
+      "lines": 1,
+      "textures": 0,
+      "vertices": 104,
+      "bounds": {
+        "min": [
+          -14.5,
+          0,
+          -6
+        ],
+        "max": [
+          14.5,
+          0.08799999922513962,
+          6
+        ]
+      },
+      "roundTrip": "passed"
+    },
+    {
+      "name": "paper-and-pencil",
+      "model": "paper-and-pencil.glb",
+      "meshes": 3,
+      "lines": 0,
+      "textures": 0,
+      "vertices": 72,
+      "bounds": {
+        "min": [
+          -2,
+          0,
+          -2.450000047683716
+        ],
+        "max": [
+          2,
+          0.37499999850988386,
+          2.450000047683716
+        ]
+      },
+      "roundTrip": "passed"
+    },
+    {
+      "name": "potted-cactus",
+      "model": "potted-cactus.glb",
+      "meshes": 8,
+      "lines": 1,
+      "textures": 0,
+      "vertices": 1317,
+      "bounds": {
+        "min": [
+          -1.1399999856948853,
+          0,
+          -1.1399999856948853
+        ],
+        "max": [
+          1.1399999856948853,
+          3.784999973773956,
+          1.1399999856948853
+        ]
+      },
+      "roundTrip": "passed"
+    },
+    {
+      "name": "classroom-backdrop",
+      "model": "classroom-backdrop.glb",
+      "meshes": 4,
+      "lines": 0,
+      "textures": 0,
+      "vertices": 96,
+      "bounds": {
+        "min": [
+          -55,
+          0,
+          -0.9500000134110458
+        ],
+        "max": [
+          55,
+          48,
+          0.9500000134110458
+        ]
+      },
+      "roundTrip": "passed"
+    },
+    {
+      "name": "floor",
+      "model": "floor.glb",
+      "meshes": 1,
+      "lines": 0,
+      "textures": 0,
+      "vertices": 4,
+      "bounds": {
+        "min": [
+          -100,
+          0,
+          -100
+        ],
+        "max": [
+          100,
+          4.440892098500626e-14,
+          100
+        ]
+      },
+      "roundTrip": "passed"
+    }
+  ],
+  "status": "verified"
+}

@@ -1,0 +1,398 @@
+{
+  "source": {
+    "repository": "https://github.com/AbbyUsesAIThatCodes/LeversLoadEffortDistance",
+    "commit": "9bfce52767e51ae728ffa9fec717264c554d026b",
+    "ref": "main",
+    "version": "0.1.0",
+    "codename": "Integrated Core"
+  },
+  "snapshotFiles": [
+    {
+      "sourcePath": "THIRD_PARTY_NOTICES.md",
+      "path": "source/THIRD_PARTY_NOTICES.md",
+      "sha256": "b5c675ee96e74e2d38eaef3ee38b251810791d1591dfc1ee4bf5dc3a788df1fa",
+      "bytes": 1494
+    },
+    {
+      "sourcePath": "docs/MODEL-AND-TEACHING.md",
+      "path": "source/docs/MODEL-AND-TEACHING.md",
+      "sha256": "6adbb0e8a873fb6145ca2b63f43f1b9def05544ec54f4d875488d19de8318d0a",
+      "bytes": 7551
+    },
+    {
+      "sourcePath": "docs/PROVENANCE.md",
+      "path": "source/docs/PROVENANCE.md",
+      "sha256": "5ae8bd256004a36cd09a2ede07a93b6fd89f6463f54988f965d751033cc7622e",
+      "bytes": 2916
+    },
+    {
+      "sourcePath": "docs/WEIGHTED-POINTER.md",
+      "path": "source/docs/WEIGHTED-POINTER.md",
+      "sha256": "a2c8c1d27380b3aa10b4a5a1bb642907ae6dd0dcba8ba2e8eddd3637e55aafd2",
+      "bytes": 3163
+    },
+    {
+      "sourcePath": "package-lock.json",
+      "path": "source/package-lock.json",
+      "sha256": "b7d3abb3898c1e7617009ad598a34f75197fb8ec51afd75e82c7cba004ddf16c",
+      "bytes": 16870
+    },
+    {
+      "sourcePath": "package.json",
+      "path": "source/package.json",
+      "sha256": "3ef3565fb52a184483fa05e9b5727ada1102958f269e891559bff22b8cdeb37c",
+      "bytes": 458
+    },
+    {
+      "sourcePath": "public/favicon.svg",
+      "path": "source/public/favicon.svg",
+      "sha256": "d45db1789e98e472b0936df01b442dc48134399aa1dc8439cab866f7e2f358d3",
+      "bytes": 333
+    },
+    {
+      "sourcePath": "public/index.html",
+      "path": "source/public/index.html",
+      "sha256": "0363bce98225e786212d456575f80bad17ded5fb8e8956a7ff7284466dcc1786",
+      "bytes": 10843
+    },
+    {
+      "sourcePath": "public/licenses/comic-neue-LICENSE.txt",
+      "path": "source/public/licenses/comic-neue-LICENSE.txt",
+      "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3",
+      "bytes": 4314
+    },
+    {
+      "sourcePath": "public/licenses/three-LICENSE.txt",
+      "path": "source/public/licenses/three-LICENSE.txt",
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "bytes": 1081
+    },
+    {
+      "sourcePath": "public/style.css",
+      "path": "source/public/style.css",
+      "sha256": "976d30b2a7711144c06d895ecd8bad343dfad89a8104b1af880eb4fa701efcc7",
+      "bytes": 22105
+    },
+    {
+      "sourcePath": "release.json",
+      "path": "source/release.json",
+      "sha256": "a393f09fcb6910aab0f86ac0fdd6ff00c11c8d54022b259cc25633aa7847d0a9",
+      "bytes": 230
+    },
+    {
+      "sourcePath": "src/app.js",
+      "path": "source/src/app.js",
+      "sha256": "9e2f18ed9f3165985c16fbdbf09a104142d2c5546918d2ecc3768efdb354f209",
+      "bytes": 23203
+    },
+    {
+      "sourcePath": "src/apparatus.js",
+      "path": "source/src/apparatus.js",
+      "sha256": "363e09b836077178bffa80e1eb6056ae0c45aba64b87277951ad38b174dafb77",
+      "bytes": 6129
+    },
+    {
+      "sourcePath": "src/math.js",
+      "path": "source/src/math.js",
+      "sha256": "79ef74c039cad6035beaff8b4591a79d8bbb491a4a284c807926a0bca742778e",
+      "bytes": 14206
+    },
+    {
+      "sourcePath": "src/model.js",
+      "path": "source/src/model.js",
+      "sha256": "1124a318e600126b3a338d4220147980326ba5f004d96da061ba23bae38401a0",
+      "bytes": 7203
+    },
+    {
+      "sourcePath": "src/scene.js",
+      "path": "source/src/scene.js",
+      "sha256": "380d0bc055d48731f2dfc1d6edf8d946fe25d0cf75ee4140ada42b7afad44d18",
+      "bytes": 11396
+    },
+    {
+      "sourcePath": "src/workshop.js",
+      "path": "source/src/workshop.js",
+      "sha256": "c9aa08f57bd4071228d9ca4129f9695052070dde318c409d4551934230d2a9bf",
+      "bytes": 12059
+    },
+    {
+      "sourcePath": "docs/screenshots/balanced.png",
+      "path": "reference-screenshots/balanced.png",
+      "sha256": "1cded87000cf83f338f12c8ff26e9d013ac5d9596b56d906b81c0555d4377a32",
+      "bytes": 282051
+    },
+    {
+      "sourcePath": "docs/screenshots/extreme-raised-load.png",
+      "path": "reference-screenshots/extreme-raised-load.png",
+      "sha256": "f2f3f3fcf3f0ffcb05bc3424ed98e4ab44b75aa6d58e6e8e0a70761794fe17fa",
+      "bytes": 280908
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-10/after-laptop.png",
+      "path": "reference-screenshots/issue-10/after-laptop.png",
+      "sha256": "a871f264a7dd3133cc4fb6b8121c4d095256a56070102549caa6b49704fa7612",
+      "bytes": 331640
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-10/after-projector.png",
+      "path": "reference-screenshots/issue-10/after-projector.png",
+      "sha256": "3e50cca0694b3ce4ccb3d876070b19de34fd387af4fbd212d8ece4ac9d93b623",
+      "bytes": 498292
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-10/before-laptop.png",
+      "path": "reference-screenshots/issue-10/before-laptop.png",
+      "sha256": "f759047f7f9ed020ceb6f4f6a053f8c833afc40b3fdbfec5495723bd12df549e",
+      "bytes": 298282
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-10/before-projector.png",
+      "path": "reference-screenshots/issue-10/before-projector.png",
+      "sha256": "0cf8b88bc24e2ee40609fbe559a12cd0f1f76f97e3c108a13f53d3cb55167347",
+      "bytes": 368497
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-10/negative-stop.png",
+      "path": "reference-screenshots/issue-10/negative-stop.png",
+      "sha256": "04a61fa5b4f1e0b2bc3b780f0b2fa4f65ec574bad62d78131daf627e0b59df85",
+      "bytes": 328356
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-10/positive-stop.png",
+      "path": "reference-screenshots/issue-10/positive-stop.png",
+      "sha256": "9007b828fd6c2758219232311f2bc5d5eb33989735bdf3192e948a5f18540329",
+      "bytes": 340523
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-7/after-compact.png",
+      "path": "reference-screenshots/issue-7/after-compact.png",
+      "sha256": "d8f1bbe9b3454027bd112dfed11d87338318dccf0c5b18abec116c13e2bccf27",
+      "bytes": 90276
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-7/after-desktop.png",
+      "path": "reference-screenshots/issue-7/after-desktop.png",
+      "sha256": "158640852ce862a71a1fd6ae32c7d986265cf6ae25fe0e3148bf387b3584449b",
+      "bytes": 326966
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-7/before-compact.png",
+      "path": "reference-screenshots/issue-7/before-compact.png",
+      "sha256": "a41ca5f138f99cce392732eb65f9f56b2702f990d20c318e657131279f38a9b9",
+      "bytes": 96311
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-7/before-desktop.png",
+      "path": "reference-screenshots/issue-7/before-desktop.png",
+      "sha256": "51accfbf81f2f02aa36e0ed904ff7d422ecd644ec392b088de25b340e5899f20",
+      "bytes": 259085
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-8/after-diagram-level.png",
+      "path": "reference-screenshots/issue-8/after-diagram-level.png",
+      "sha256": "297f96e291968914237d9abe0581a4a631efe26059d971a4c0c6cbc9efef62de",
+      "bytes": 242101
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-8/after-diagram-negative-stop.png",
+      "path": "reference-screenshots/issue-8/after-diagram-negative-stop.png",
+      "sha256": "bfa7f379717cfed7d445868ca867c286ad199f966530d54cbb36598717fd7282",
+      "bytes": 260594
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-8/after-diagram-positive-stop.png",
+      "path": "reference-screenshots/issue-8/after-diagram-positive-stop.png",
+      "sha256": "451470251e5372b754d1ea8e55ce65b5c11269c85b1b882ccca3cf12fce7e19a",
+      "bytes": 259339
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-8/after-webgl-level.png",
+      "path": "reference-screenshots/issue-8/after-webgl-level.png",
+      "sha256": "f8cce7ebc56bbf7a56b739509e28556b3bf47921b57283b5e2d3249517242939",
+      "bytes": 260668
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-8/after-webgl-negative-stop.png",
+      "path": "reference-screenshots/issue-8/after-webgl-negative-stop.png",
+      "sha256": "e8964aee76b925180f75d99a0fe1e8305037776261fa4cf8995abc18b3ce17cf",
+      "bytes": 281239
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-8/after-webgl-positive-stop.png",
+      "path": "reference-screenshots/issue-8/after-webgl-positive-stop.png",
+      "sha256": "6cbb180fe553dae1626b45333d107fe0d76ad8178f67f629ce11983f271b75bc",
+      "bytes": 280080
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-8/before-diagram-level.png",
+      "path": "reference-screenshots/issue-8/before-diagram-level.png",
+      "sha256": "f127fcee9f5f095c7affa5c922356fb4164d11d05d277304222f03fc6eedb09d",
+      "bytes": 241982
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-8/before-diagram-negative-stop.png",
+      "path": "reference-screenshots/issue-8/before-diagram-negative-stop.png",
+      "sha256": "c8bf43628ecb444316742a51f7234124ec9f86e6997b24d65e98c9138417d5da",
+      "bytes": 259948
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-8/before-diagram-positive-stop.png",
+      "path": "reference-screenshots/issue-8/before-diagram-positive-stop.png",
+      "sha256": "fe474a1781e085c6c6196c12956bef9173ec415182d15bc6bd0991a00fc5043b",
+      "bytes": 258606
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-8/before-webgl-level.png",
+      "path": "reference-screenshots/issue-8/before-webgl-level.png",
+      "sha256": "e961c102a32685cc60c47dd5ca1fe4bbeba9ed8a7d58eb440251e8b0d4430b84",
+      "bytes": 261177
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-8/before-webgl-negative-stop.png",
+      "path": "reference-screenshots/issue-8/before-webgl-negative-stop.png",
+      "sha256": "10e24280e042a334023a83afbde30a91d6cdbf4296161c5b06145e659d9908cc",
+      "bytes": 280653
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-8/before-webgl-positive-stop.png",
+      "path": "reference-screenshots/issue-8/before-webgl-positive-stop.png",
+      "sha256": "c6aa1efa54fe16793331cafd352331990230e1d3f40efde04f840864a07921b9",
+      "bytes": 279357
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-9/after-compact-touch.png",
+      "path": "reference-screenshots/issue-9/after-compact-touch.png",
+      "sha256": "749d3bd91c6ea2b0778917f2a63a59b576250c0ae6ffadec610826f3c8cb80fa",
+      "bytes": 285138
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-9/after-fallback.png",
+      "path": "reference-screenshots/issue-9/after-fallback.png",
+      "sha256": "49b259b237a36d630cd27fdb30725dee9206be84c669cd9d4f2dedae555c924f",
+      "bytes": 250762
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-9/after-laptop.png",
+      "path": "reference-screenshots/issue-9/after-laptop.png",
+      "sha256": "f759047f7f9ed020ceb6f4f6a053f8c833afc40b3fdbfec5495723bd12df549e",
+      "bytes": 298282
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-9/after-projector.png",
+      "path": "reference-screenshots/issue-9/after-projector.png",
+      "sha256": "0cf8b88bc24e2ee40609fbe559a12cd0f1f76f97e3c108a13f53d3cb55167347",
+      "bytes": 368497
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-9/before-compact-touch.png",
+      "path": "reference-screenshots/issue-9/before-compact-touch.png",
+      "sha256": "573b06a2d82cc39e9fb0932043f0e80c73fd204321f1e9ae2c8b5464968314ce",
+      "bytes": 306687
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-9/before-laptop.png",
+      "path": "reference-screenshots/issue-9/before-laptop.png",
+      "sha256": "4cbb18c8cdfa53f2311f7e48caf21fcae99c68c09f5b4e45be230f105e1ea8c3",
+      "bytes": 324236
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-9/before-projector.png",
+      "path": "reference-screenshots/issue-9/before-projector.png",
+      "sha256": "e188f1351be3a8770220d4f45b483f7753f367962c42ec1327e1ad5b126ce542",
+      "bytes": 396554
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-9/force-math.png",
+      "path": "reference-screenshots/issue-9/force-math.png",
+      "sha256": "0b607ee7eeb572932182b90a2c229915cefddec015639e8474e55b1b2c0fcaee",
+      "bytes": 297730
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-9/keyboard-tooltip.png",
+      "path": "reference-screenshots/issue-9/keyboard-tooltip.png",
+      "sha256": "9a1ff2e7a6a83d77e659671d0cea11b97bd43d329d8ee57bd822910a9724e938",
+      "bytes": 321234
+    },
+    {
+      "sourcePath": "docs/screenshots/issue-9/touch-tooltip.png",
+      "path": "reference-screenshots/issue-9/touch-tooltip.png",
+      "sha256": "ac5a28dc97ce6fb08bfbe7da55a9a0be4faa7eadf87b3e5a822c4cdaabb31e28",
+      "bytes": 310684
+    },
+    {
+      "sourcePath": "docs/screenshots/phone.png",
+      "path": "reference-screenshots/phone.png",
+      "sha256": "f4482decc9ada6803a487d692e258844c48fe21482fc5530baef02524f1685cc",
+      "bytes": 142262
+    },
+    {
+      "sourcePath": "docs/screenshots/swapped-released.png",
+      "path": "reference-screenshots/swapped-released.png",
+      "sha256": "ab32817b52f663b03b282b42a76581e1b6b6511c064a8a6f77f62b8b6490087b",
+      "bytes": 272381
+    },
+    {
+      "sourcePath": "docs/screenshots/weighted-pointer/build-manifest.json",
+      "path": "reference-screenshots/weighted-pointer/build-manifest.json",
+      "sha256": "a5d03cf6f662c831eac76ccffab1f5f2bd9e036ac4ff1b34131d5372ec76cb6a",
+      "bytes": 664
+    },
+    {
+      "sourcePath": "docs/screenshots/weighted-pointer/fallback-balanced.png",
+      "path": "reference-screenshots/weighted-pointer/fallback-balanced.png",
+      "sha256": "6983eafb3c62f41caa40b97fbef1d9293c18d65bd00f0a86ba9b659a163c502c",
+      "bytes": 214832
+    },
+    {
+      "sourcePath": "docs/screenshots/weighted-pointer/projector.png",
+      "path": "reference-screenshots/weighted-pointer/projector.png",
+      "sha256": "193e388461a43594baf8683a39ee8c6fd6ee2105e37a6261842ffcb0643fde7d",
+      "bytes": 467994
+    },
+    {
+      "sourcePath": "docs/screenshots/weighted-pointer/true-balanced.png",
+      "path": "reference-screenshots/weighted-pointer/true-balanced.png",
+      "sha256": "6c25f06d860a1bf1b81c9af3b941e10e91fe9e14d5b78f31daaecd8750ecc7ea",
+      "bytes": 244460
+    },
+    {
+      "sourcePath": "docs/screenshots/weighted-pointer/true-settling.png",
+      "path": "reference-screenshots/weighted-pointer/true-settling.png",
+      "sha256": "5e56d8d00d0a22e504d93ecfdc4955b028e4a53adb3b6134f4b7726ebfd2ef18",
+      "bytes": 253655
+    },
+    {
+      "sourcePath": "docs/screenshots/weighted-pointer/true-small-imbalance.png",
+      "path": "reference-screenshots/weighted-pointer/true-small-imbalance.png",
+      "sha256": "bac368e0ec2c3d1c2f674352720dcdcf4853f07eb804ea3a78e0da32164ba296",
+      "bytes": 249942
+    },
+    {
+      "sourcePath": "docs/screenshots/weighted-pointer/verification.json",
+      "path": "reference-screenshots/weighted-pointer/verification.json",
+      "sha256": "8dd0675131a014a52a44edc9b45abcc9b547af393b0b06957f5a30a9e056e6fe",
+      "bytes": 413
+    }
+  ],
+  "dependencyAssets": [
+    {
+      "path": "fonts/comic-neue-regular.woff2",
+      "package": "@fontsource/comic-neue",
+      "version": "5.2.6",
+      "packagePath": "files/comic-neue-latin-400-normal.woff2",
+      "sha256": "30032375de9172d3d74f03e435544f19b40f09dce208204ee9b9e92b29ef36b3",
+      "bytes": 19136,
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "fonts/comic-neue-bold.woff2",
+      "package": "@fontsource/comic-neue",
+      "version": "5.2.6",
+      "packagePath": "files/comic-neue-latin-700-normal.woff2",
+      "sha256": "0c1d3e1eaa4f7b42cd9db94b4dd66ad552f827b2fe008956cbea53775448ba82",
+      "bytes": 18772,
+      "license": "SIL OFL 1.1"
+    }
+  ],
+  "licenseStatus": "Upstream contains third-party notices but no repository-wide license. No new license is inferred or granted."
+}
