@@ -80,7 +80,7 @@ for (const name of await readdir('packs')) {
     assert(hash && file, line);
     assert.equal(createHash('sha256').update(await readFile(`${dir}/${file}`)).digest('hex'), hash, file);
   }
-  const all = (await files(dir)).map(p => path.relative(dir,p)).filter(p => p !== 'checksums.sha256').sort();
+  const all = (await files(dir)).map(p => path.relative(dir,p).split(path.sep).join('/')).filter(p => p !== 'checksums.sha256').sort();
   assert.deepEqual(lines.map(l => l.slice(66)).sort(), all, 'Complete procedural pack inventory');
   console.log(`Verified ${name}: ${record.snapshotFiles.length} original source files and ${lines.length} inventory entries.`);
 }
