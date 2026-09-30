@@ -1,0 +1,58 @@
+{
+  "sourceRevision": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+  "scope": "Actual Implemented Material Values; No Shared Runtime API",
+  "materials": [
+    {
+      "name": "Selected Or Hovered Apparatus",
+      "source": "src/scene.js:highlight",
+      "type": "MeshStandardMaterial",
+      "emissive": "#376b2a",
+      "emissiveIntensity": 0.35,
+      "meaning": "Interaction selection, not an answer verdict"
+    },
+    {
+      "name": "Effort",
+      "source": "src/scene.js:COLORS",
+      "color": "#257e73"
+    },
+    {
+      "name": "Fulcrum",
+      "source": "src/scene.js:COLORS",
+      "color": "#7952a0"
+    },
+    {
+      "name": "Load",
+      "source": "src/scene.js:COLORS",
+      "color": "#bf8630"
+    },
+    {
+      "name": "Learn Correct",
+      "source": "public/style.css:#build-feedback[data-correct=true]",
+      "color": "#17633b",
+      "border": "#27834c",
+      "meaning": "Pair with Correct text"
+    },
+    {
+      "name": "Learn Incorrect",
+      "source": "public/style.css:#build-feedback[data-correct=false]",
+      "color": "#9e302d",
+      "border": "#b6413c",
+      "meaning": "Pair with Not Yet text"
+    },
+    {
+      "name": "Quiz Border",
+      "source": "public/style.css:#quiz-feedback:not(:empty)",
+      "border": "#857338",
+      "meaning": "Later rule overrides quiz border; retain correct/incorrect text colors"
+    }
+  ],
+  "classroom": {
+    "type": "MeshToonMaterial",
+    "gradient": [
+      110,
+      185,
+      245
+    ],
+    "notes": "Room material helper removes roughness/metalness properties. Do not interpret room steel color as a PBR metal."
+  }
+}

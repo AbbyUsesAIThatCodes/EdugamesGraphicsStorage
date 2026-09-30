@@ -1,0 +1,140 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-09-30T03:57:39.543Z",
+  "kind": "Local Source Asset Demo; Not Full-Game Acceptance",
+  "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+  "upstreamBuild": "0.1.0_Unassigned_pr-9_build-001_20260930T032145Z_gd3d647fd204c_web-review",
+  "browser": "154.0.8037.92",
+  "three": "0.180.0",
+  "checks": [
+    "Every archived Git blob hash",
+    "Five rendered views",
+    "Four separate desks in two pairs",
+    "Named push bar and extinguisher geometry",
+    "Actual selected-load emissive value and intensity",
+    "Six original accessible SVG examples with hidden/revealed roles",
+    "Learn feedback text and border colors",
+    "320x568 horizontal fit and source identity",
+    "No external requests or unexpected browser errors; known upstream merge fallback diagnostics recorded"
+  ],
+  "room": {
+    "desks": [
+      "Desk_Pair_1_1",
+      "Desk_Pair_1_2",
+      "Desk_Pair_2_1",
+      "Desk_Pair_2_2"
+    ],
+    "door": true,
+    "extinguisher": true,
+    "examples": 6,
+    "source": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+    "build": "0.1.0_Unassigned_pr-9_build-001_20260930T032145Z_gd3d647fd204c_web-review"
+  },
+  "feedback": [
+    [
+      "rgb(23, 99, 59)",
+      "rgb(39, 131, 76)"
+    ],
+    [
+      "rgb(158, 48, 45)",
+      "rgb(182, 65, 60)"
+    ]
+  ],
+  "knownUpstreamDiagnostics": [
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 2. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 6. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 6. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 6. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 6. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 2. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 3. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 2. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 2. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 2. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 2. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 6. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 2. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 6. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 6. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 6. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 6. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 4. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 2. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 3. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 2. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 2. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 2. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 2. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 6. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.",
+    "THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index 1. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them."
+  ],
+  "external": [],
+  "inputs": [
+    {
+      "path": "demo/index.html",
+      "sha256": "818bbfea86eb1a850c5940784b2385664c511ba337220aa6a3749d79d5a0a57f"
+    },
+    {
+      "path": "demo/demo.mjs",
+      "sha256": "9dfeec5bc58ff647336a22fe062ef5ee79bb7fe2cb0383e490e3cddefa27d41e"
+    },
+    {
+      "path": "palette.json",
+      "sha256": "7939feb545d002c9277c04fe9ef16b05c7553c33ceedc6775bb43c70f0114c9e"
+    },
+    {
+      "path": "provenance.json",
+      "sha256": "5c4d73a90921d6dd1f6166bf8ba0922e8070c1a8b0385f0b2b9e6186d944dd95"
+    }
+  ]
+}
