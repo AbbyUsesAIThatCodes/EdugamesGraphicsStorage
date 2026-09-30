@@ -4,19 +4,31 @@
     "commit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
     "version": "0.1.0",
     "codename": null,
-    "status": "Historical Preparation; Replacement Mobile CSS Identity Pending",
+    "status": "Frozen Graphics Source; Final Unmerged Consumer Independently Reviewed",
     "pullRequest": "https://github.com/AbbyUsesAIThatCodes/ThreeKindsOfLevers/pull/9"
   },
   "upstreamBuild": {
-    "id": "0.1.0_Unassigned_pr-9_build-001_20260930T032145Z_gd3d647fd204c_web-review",
-    "manifest": "history/0.1.0_Unassigned_pr-9_build-001_20260930T032145Z_gd3d647fd204c_web-review/build-manifest.json",
-    "sha256": "c4a466e19602a8e742d900a06d24c680e5509e997c0950ace534dcfc946ad6d2",
-    "bytes": 976,
+    "id": "0.1.0_Unassigned_pr-9_build-003_20260930T035321Z_gc567ddf0612d_web-review",
+    "manifest": "history/0.1.0_Unassigned_pr-9_build-003_20260930T035321Z_gc567ddf0612d_web-review/build-manifest.json",
+    "sha256": "9096469a93b43a5cc098811b47781bf8980fe1658bd7a6381a7f906a78eff9e9",
+    "bytes": 977,
     "idField": "fullId",
-    "status": "Exact Upstream Overlay Manifest; packagerDirty Preserved; Not A Storage Export"
+    "sourceCommit": "c567ddf0612dd25501144809031e0c4daf929753",
+    "status": "Final Tested Consumer Build; Graphics Revision Recorded Separately; Not A Storage Export"
   },
-  "manifestCheckpoint": "b9553cf60320be10cb644859c83986e515994895",
-  "history": [],
+  "manifestCheckpoint": "2d56d8185148d09eaad1d92d1e06e56b44090755",
+  "history": [
+    {
+      "assetCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "consumerCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "buildId": "0.1.0_Unassigned_pr-9_build-001_20260930T032145Z_gd3d647fd204c_web-review",
+      "manifest": "history/0.1.0_Unassigned_pr-9_build-001_20260930T032145Z_gd3d647fd204c_web-review/build-manifest.json",
+      "sha256": "c4a466e19602a8e742d900a06d24c680e5509e997c0950ace534dcfc946ad6d2",
+      "storageRevision": "1c659695dfb64407957d89f5cfb89c77b2befc18",
+      "verification": "reference-screenshots/d3d647fd204cebd9ac94d652fbada434a08d7a90/verification.json",
+      "reason": "Initial verified source/consumer snapshot; final phone CSS and heading changes are recorded separately without relabeling graphics."
+    }
+  ],
   "snapshotFiles": [
     {
       "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
@@ -129,6 +141,20 @@
       "path": "source/b9553cf60320be10cb644859c83986e515994895/docs/ASSET-MANIFEST.md",
       "sha256": "e8210a5ae2c7198c03f10cc8a2bd48f041ae045e8d8d682a8f4765df60135325",
       "bytes": 1971
+    },
+    {
+      "sourceCommit": "2d56d8185148d09eaad1d92d1e06e56b44090755",
+      "sourcePath": "docs/ASSET-MANIFEST.md",
+      "path": "source/2d56d8185148d09eaad1d92d1e06e56b44090755/docs/ASSET-MANIFEST.md",
+      "sha256": "f64802b5ce763573fafafe1dab510f59ad9dad15d9c41a2b7a47936ba0fcca1f",
+      "bytes": 2318
+    },
+    {
+      "sourceCommit": "c567ddf0612dd25501144809031e0c4daf929753",
+      "sourcePath": "public/style.css",
+      "path": "source/c567ddf0612dd25501144809031e0c4daf929753/public/style.css",
+      "sha256": "d85fe7e49f8fa5058bd16410b8435d9526ecafe80769edbfedc6556b64e7e124",
+      "bytes": 14617
     }
   ],
   "dependencyAssets": [],
@@ -261,6 +287,44 @@
     "dependencies": {
       "three": "0.180.0"
     },
-    "limitations": "Toon classroom uses approximate dimensions; feedback selection green is not correctness. The upstream overlay packager dirty flag is preserved rather than relabeled."
+    "limitations": "Toon classroom uses approximate dimensions; feedback selection green is not correctness. The upstream overlay packager dirty flag is preserved rather than relabeled.",
+    "evidenceDirectory": "reference-screenshots/0.1.0_Unassigned_pr-9_build-003_20260930T035321Z_gc567ddf0612d_web-review"
+  },
+  "consumer": {
+    "repository": "https://github.com/AbbyUsesAIThatCodes/ThreeKindsOfLevers",
+    "runtimeCommit": "c567ddf0612dd25501144809031e0c4daf929753",
+    "evidenceCheckpoint": "2d56d8185148d09eaad1d92d1e06e56b44090755",
+    "buildId": "0.1.0_Unassigned_pr-9_build-003_20260930T035321Z_gc567ddf0612d_web-review",
+    "graphicsByteIdentity": [
+      {
+        "path": "src/classroom/classroom.js",
+        "sha256": "cda26e5d872bf272635ef21c9e9ea44ecf010d1a9be082815af94c351d164685"
+      },
+      {
+        "path": "src/classroom/layout.js",
+        "sha256": "bda51e570e458e07587afa45a5c9aea9218250c577bf0d23958d0f8d75fd1876"
+      },
+      {
+        "path": "src/classroom/textures.js",
+        "sha256": "0c2cbbdbb9a6dea9bc22bab75560518b0b5bfa005f8d6d70adff703364f662f6"
+      },
+      {
+        "path": "src/examples.js",
+        "sha256": "1680f58cb6b15f5f2599c459ac34026b45fcffdac8cff19987b4b3923b48bc68"
+      },
+      {
+        "path": "src/scene.js",
+        "sha256": "e3d7e9d56171011206f5b837cf6a74cf2f6332591fd9a09e035a8b28d74e2d5d"
+      },
+      {
+        "path": "src/workshop.js",
+        "sha256": "0241a59b9a2079697e54ffab60b11d0fc41ca46ff351d54c2f1285c867bb3dac"
+      },
+      {
+        "path": "src/model.js",
+        "sha256": "05f6775d4bb540e16dfcc1fff5a4fdba2f496f6b668725723bccf1de9e7da33a"
+      }
+    ],
+    "scope": "Phone scrolling, subtitle wrapping and visible headings; archived graphics generators byte-identical"
   }
 }

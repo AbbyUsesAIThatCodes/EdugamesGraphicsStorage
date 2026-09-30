@@ -5,9 +5,9 @@ Editable procedural classroom, apparatus, six teaching diagrams and implemented 
 ## Source And Identity
 
 - Source: [ThreeKindsOfLevers@d3d647fd204c](https://github.com/AbbyUsesAIThatCodes/ThreeKindsOfLevers/tree/d3d647fd204cebd9ac94d652fbada434a08d7a90).
-- Upstream build reference: `0.1.0_Unassigned_pr-9_build-001_20260930T032145Z_gd3d647fd204c_web-review`.
-- Status: Historical Preparation; Replacement Mobile CSS Identity Pending.
-- [Exact provenance](provenance.json), [upstream build manifest](history/0.1.0_Unassigned_pr-9_build-001_20260930T032145Z_gd3d647fd204c_web-review/build-manifest.json), [implemented palette](palette.json), [asset catalog](CATALOG.md).
+- Upstream build reference: `0.1.0_Unassigned_pr-9_build-003_20260930T035321Z_gc567ddf0612d_web-review`.
+- Status: Frozen Graphics Source; Final Unmerged Consumer Independently Reviewed.
+- [Exact provenance](provenance.json), [upstream build manifest](history/0.1.0_Unassigned_pr-9_build-003_20260930T035321Z_gc567ddf0612d_web-review/build-manifest.json), [implemented palette](palette.json), [asset catalog](CATALOG.md).
 - The manifest preserves source and packager identities separately, including any original packager dirty flag. No build is relabeled. Unassigned is the upstream codename placeholder.
 
 ## Local Review
@@ -28,4 +28,7 @@ Selection glow is green; answer feedback uses separate text and red/green border
 
 ## Validation
 
-[Local report](reference-screenshots/d3d647fd204cebd9ac94d652fbada434a08d7a90/verification.json) checks Git blob hashes, five rendered views, four desks/two pairs, named hardware, actual emissive values, six accessible SVG examples, feedback colors and mobile horizontal fit. This is asset-level verification, not teacher acceptance or a rerun of the complete game suite. Existing packs/exports are preserved; matching source dependencies are identified in provenance rather than exported again.
+[Local report](reference-screenshots/0.1.0_Unassigned_pr-9_build-003_20260930T035321Z_gc567ddf0612d_web-review/verification.json) checks Git blob hashes, five rendered views, four desks/two pairs, named hardware, actual emissive values, six accessible SVG examples, feedback colors and mobile horizontal fit. This is asset-level verification, not teacher acceptance or a rerun of the complete game suite. Existing packs/exports are preserved; matching source dependencies are identified in provenance rather than exported again.
+
+The tested consumer runtime is c567ddf0612dd25501144809031e0c4daf929753 at evidence checkpoint 2d56d8185148d09eaad1d92d1e06e56b44090755. Its seven archived generator/model files match the frozen graphics source byte for byte. Final mobile CSS is archived separately under the consumer revision. The earlier build 001 source, manifest and screenshots remain unchanged.
+
