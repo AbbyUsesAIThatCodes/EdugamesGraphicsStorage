@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "version": "0.1.0",
+  "releaseStatus": "development",
+  "codename": null,
+  "codenameSlug": "Unassigned",
+  "codenameNote": "No accepted release codename exists in the recovered repository history. Unassigned is an explicit placeholder, not a new codename.",
+  "scope": "pr-9",
+  "pr": 9,
+  "ordinal": 1,
+  "builtAtUtc": "2026-09-30T03:21:45.085Z",
+  "sourceRevision": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+  "sourceDirty": false,
+  "sourceFingerprint": "87d140c79fdabf8233b3cb11f250ad7ca8c271a17e437529ca90614214e97513",
+  "packagerRevision": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+  "packagerDirty": true,
+  "packagerFingerprint": "646661278449e435ac1edaa73a3ed05ee99477f40cf49888fdde1e0ee308505c",
+  "target": "web-review",
+  "fullId": "0.1.0_Unassigned_pr-9_build-001_20260930T032145Z_gd3d647fd204c_web-review",
+  "identityLayer": "scripts/build-identity.mjs: static metadata overlay and report; game source snapshot identified separately"
+}

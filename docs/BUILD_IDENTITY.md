@@ -47,3 +47,14 @@ footer and console identify that status, exact source snapshot, and full upstrea
 build reference. It is not a new game build, GLB export, or deployment. Catalog,
 palette, and README links identify the same snapshot. A future actual export
 must allocate its own identity under the conventions above.
+
+## ThreeKindsOfLevers Source Demonstration
+
+`packs/three-kinds-of-levers/source/<full-commit>/` archives original Git blobs.
+The checkpoint containing the handoff manifest can differ from the integrated
+runtime source. Both identities are recorded independently in `provenance.json`.
+The exact upstream `fullId` manifest retains source and overlay-packager identities
+and dirty flags without reinterpretation. `demo/` is an unbundled local source
+demo, with source and upstream build reference in its footer. The catalog,
+palette and source-keyed screenshots identify the same revision. It allocates no
+game build ordinal and makes no portable export or deployment claim.

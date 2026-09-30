@@ -1,0 +1,330 @@
+{
+  "source": {
+    "repository": "https://github.com/AbbyUsesAIThatCodes/ThreeKindsOfLevers",
+    "commit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+    "version": "0.1.0",
+    "codename": null,
+    "status": "Frozen Graphics Source; Final Unmerged Consumer Independently Reviewed",
+    "pullRequest": "https://github.com/AbbyUsesAIThatCodes/ThreeKindsOfLevers/pull/9"
+  },
+  "upstreamBuild": {
+    "id": "0.1.0_Unassigned_pr-9_build-003_20260930T035321Z_gc567ddf0612d_web-review",
+    "manifest": "history/0.1.0_Unassigned_pr-9_build-003_20260930T035321Z_gc567ddf0612d_web-review/build-manifest.json",
+    "sha256": "9096469a93b43a5cc098811b47781bf8980fe1658bd7a6381a7f906a78eff9e9",
+    "bytes": 977,
+    "idField": "fullId",
+    "sourceCommit": "c567ddf0612dd25501144809031e0c4daf929753",
+    "status": "Final Tested Consumer Build; Graphics Revision Recorded Separately; Not A Storage Export"
+  },
+  "manifestCheckpoint": "2d56d8185148d09eaad1d92d1e06e56b44090755",
+  "history": [
+    {
+      "assetCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "consumerCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "buildId": "0.1.0_Unassigned_pr-9_build-001_20260930T032145Z_gd3d647fd204c_web-review",
+      "manifest": "history/0.1.0_Unassigned_pr-9_build-001_20260930T032145Z_gd3d647fd204c_web-review/build-manifest.json",
+      "sha256": "c4a466e19602a8e742d900a06d24c680e5509e997c0950ace534dcfc946ad6d2",
+      "storageRevision": "1c659695dfb64407957d89f5cfb89c77b2befc18",
+      "verification": "reference-screenshots/d3d647fd204cebd9ac94d652fbada434a08d7a90/verification.json",
+      "reason": "Initial verified source/consumer snapshot; final phone CSS and heading changes are recorded separately without relabeling graphics."
+    }
+  ],
+  "snapshotFiles": [
+    {
+      "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "sourcePath": "src/classroom/classroom.js",
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/src/classroom/classroom.js",
+      "sha256": "cda26e5d872bf272635ef21c9e9ea44ecf010d1a9be082815af94c351d164685",
+      "bytes": 23286
+    },
+    {
+      "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "sourcePath": "src/classroom/layout.js",
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/src/classroom/layout.js",
+      "sha256": "bda51e570e458e07587afa45a5c9aea9218250c577bf0d23958d0f8d75fd1876",
+      "bytes": 1884
+    },
+    {
+      "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "sourcePath": "src/classroom/textures.js",
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/src/classroom/textures.js",
+      "sha256": "0c2cbbdbb9a6dea9bc22bab75560518b0b5bfa005f8d6d70adff703364f662f6",
+      "bytes": 4829
+    },
+    {
+      "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "sourcePath": "src/examples.js",
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/src/examples.js",
+      "sha256": "1680f58cb6b15f5f2599c459ac34026b45fcffdac8cff19987b4b3923b48bc68",
+      "bytes": 5619
+    },
+    {
+      "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "sourcePath": "src/scene.js",
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/src/scene.js",
+      "sha256": "e3d7e9d56171011206f5b837cf6a74cf2f6332591fd9a09e035a8b28d74e2d5d",
+      "bytes": 11185
+    },
+    {
+      "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "sourcePath": "src/workshop.js",
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/src/workshop.js",
+      "sha256": "0241a59b9a2079697e54ffab60b11d0fc41ca46ff351d54c2f1285c867bb3dac",
+      "bytes": 11869
+    },
+    {
+      "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "sourcePath": "src/model.js",
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/src/model.js",
+      "sha256": "05f6775d4bb540e16dfcc1fff5a4fdba2f496f6b668725723bccf1de9e7da33a",
+      "bytes": 3041
+    },
+    {
+      "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "sourcePath": "public/style.css",
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/public/style.css",
+      "sha256": "7cc25355350093c090df7ca45fc2d5857b420486c44e667c5e1283a91b77d0c8",
+      "bytes": 14559
+    },
+    {
+      "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "sourcePath": "public/licenses/three-LICENSE.txt",
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/public/licenses/three-LICENSE.txt",
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "bytes": 1081
+    },
+    {
+      "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "sourcePath": "public/licenses/comic-neue-LICENSE.txt",
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/public/licenses/comic-neue-LICENSE.txt",
+      "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3",
+      "bytes": 4314
+    },
+    {
+      "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "sourcePath": "THIRD_PARTY_NOTICES.md",
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/THIRD_PARTY_NOTICES.md",
+      "sha256": "9aa982bb36c5c17a26e18ed731a2a6405cecbe010ed708122878e4a2a79daa72",
+      "bytes": 1507
+    },
+    {
+      "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "sourcePath": "docs/CLASSROOM-REFERENCE.md",
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/docs/CLASSROOM-REFERENCE.md",
+      "sha256": "c7c3324ad12cd64fee2bac4ace6a1f1c7abeaee620372a188d79b3b9d668e58c",
+      "bytes": 2919
+    },
+    {
+      "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "sourcePath": "package.json",
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/package.json",
+      "sha256": "59f972541fc420d73dcc338b90a9f0601c0655492b741be08448dc3241c04e0b",
+      "bytes": 452
+    },
+    {
+      "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "sourcePath": "package-lock.json",
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/package-lock.json",
+      "sha256": "ed2a6f3f62493525278ccface49faf7d984291d7c49e4c86df770f50b4258cd0",
+      "bytes": 16858
+    },
+    {
+      "sourceCommit": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+      "sourcePath": "release.json",
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/release.json",
+      "sha256": "3809e095b65e1f5d74775d9a3ac69925bfda1af0d8cde471eef3b472f3ee6c7f",
+      "bytes": 413
+    },
+    {
+      "sourceCommit": "b9553cf60320be10cb644859c83986e515994895",
+      "sourcePath": "docs/ASSET-MANIFEST.md",
+      "path": "source/b9553cf60320be10cb644859c83986e515994895/docs/ASSET-MANIFEST.md",
+      "sha256": "e8210a5ae2c7198c03f10cc8a2bd48f041ae045e8d8d682a8f4765df60135325",
+      "bytes": 1971
+    },
+    {
+      "sourceCommit": "2d56d8185148d09eaad1d92d1e06e56b44090755",
+      "sourcePath": "docs/ASSET-MANIFEST.md",
+      "path": "source/2d56d8185148d09eaad1d92d1e06e56b44090755/docs/ASSET-MANIFEST.md",
+      "sha256": "f64802b5ce763573fafafe1dab510f59ad9dad15d9c41a2b7a47936ba0fcca1f",
+      "bytes": 2318
+    },
+    {
+      "sourceCommit": "c567ddf0612dd25501144809031e0c4daf929753",
+      "sourcePath": "public/style.css",
+      "path": "source/c567ddf0612dd25501144809031e0c4daf929753/public/style.css",
+      "sha256": "d85fe7e49f8fa5058bd16410b8435d9526ecafe80769edbfedc6556b64e7e124",
+      "bytes": 14617
+    }
+  ],
+  "dependencyAssets": [],
+  "ancestry": [
+    {
+      "repository": "AbbyUsesAIThatCodes/ClassroomVirtualization",
+      "commit": "1f25638e64861424a52f8bf381cea2a247cfe74e",
+      "use": "Photo-informed procedural classroom; no reference photos redistributed"
+    },
+    {
+      "repository": "AbbyUsesAIThatCodes/MechanicalAdvantage",
+      "commit": "f316c49745a394e0dd100ff4e8d01c0ae4431286",
+      "use": "Workshop and apparatus infrastructure, descended from LeverWorkshop"
+    }
+  ],
+  "licenseStatus": "No blanket original-art license supplied. No new rights inferred. Three.js MIT; preserved Comic Neue OFL notice, no font binaries redistributed.",
+  "duplicationReview": [
+    {
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/src/classroom/classroom.js",
+      "matchingStoredFiles": [],
+      "decision": "Retain Original Generator Closure And Attribution; Do Not Duplicate Existing Static GLB Exports"
+    },
+    {
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/src/classroom/layout.js",
+      "matchingStoredFiles": [],
+      "decision": "Retain Original Generator Closure And Attribution; Do Not Duplicate Existing Static GLB Exports"
+    },
+    {
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/src/classroom/textures.js",
+      "matchingStoredFiles": [],
+      "decision": "Retain Original Generator Closure And Attribution; Do Not Duplicate Existing Static GLB Exports"
+    },
+    {
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/src/examples.js",
+      "matchingStoredFiles": [],
+      "decision": "Retain Original Generator Closure And Attribution; Do Not Duplicate Existing Static GLB Exports"
+    },
+    {
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/src/scene.js",
+      "matchingStoredFiles": [],
+      "decision": "Retain Original Generator Closure And Attribution; Do Not Duplicate Existing Static GLB Exports"
+    },
+    {
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/src/workshop.js",
+      "matchingStoredFiles": [],
+      "decision": "Retain Original Generator Closure And Attribution; Do Not Duplicate Existing Static GLB Exports"
+    },
+    {
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/src/model.js",
+      "matchingStoredFiles": [],
+      "decision": "Retain Original Generator Closure And Attribution; Do Not Duplicate Existing Static GLB Exports"
+    },
+    {
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/public/style.css",
+      "matchingStoredFiles": [],
+      "decision": "Retain Original Generator Closure And Attribution; Do Not Duplicate Existing Static GLB Exports"
+    },
+    {
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/public/licenses/three-LICENSE.txt",
+      "matchingStoredFiles": [
+        {
+          "storageRevision": "b021165ad9e140adbd06921ed359aed1228e9881",
+          "path": "packs/levers-load-effort-distance/source/public/licenses/three-LICENSE.txt"
+        },
+        {
+          "storageRevision": "a2e89a5951a30a165f1b3c3a360ebb552b6cb9d2",
+          "path": "packs/levers-load-effort-distance/source/public/licenses/three-LICENSE.txt"
+        }
+      ],
+      "decision": "Retain Original Generator Closure And Attribution; Do Not Duplicate Existing Static GLB Exports"
+    },
+    {
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/public/licenses/comic-neue-LICENSE.txt",
+      "matchingStoredFiles": [
+        {
+          "storageRevision": "b021165ad9e140adbd06921ed359aed1228e9881",
+          "path": "packs/levers-load-effort-distance/source/public/licenses/comic-neue-LICENSE.txt"
+        },
+        {
+          "storageRevision": "a2e89a5951a30a165f1b3c3a360ebb552b6cb9d2",
+          "path": "packs/levers-load-effort-distance/source/public/licenses/comic-neue-LICENSE.txt"
+        },
+        {
+          "storageRevision": "a2e89a5951a30a165f1b3c3a360ebb552b6cb9d2",
+          "path": "packs/multiview-mystery/source-current/dist/fonts/LICENSE.txt"
+        }
+      ],
+      "decision": "Retain Original Generator Closure And Attribution; Do Not Duplicate Existing Static GLB Exports"
+    },
+    {
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/THIRD_PARTY_NOTICES.md",
+      "matchingStoredFiles": [],
+      "decision": "Retain Original Generator Closure And Attribution; Do Not Duplicate Existing Static GLB Exports"
+    },
+    {
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/docs/CLASSROOM-REFERENCE.md",
+      "matchingStoredFiles": [],
+      "decision": "Retain Original Generator Closure And Attribution; Do Not Duplicate Existing Static GLB Exports"
+    },
+    {
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/package.json",
+      "matchingStoredFiles": [],
+      "decision": "Retain Original Generator Closure And Attribution; Do Not Duplicate Existing Static GLB Exports"
+    },
+    {
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/package-lock.json",
+      "matchingStoredFiles": [],
+      "decision": "Retain Original Generator Closure And Attribution; Do Not Duplicate Existing Static GLB Exports"
+    },
+    {
+      "path": "source/d3d647fd204cebd9ac94d652fbada434a08d7a90/release.json",
+      "matchingStoredFiles": [],
+      "decision": "Retain Original Generator Closure And Attribution; Do Not Duplicate Existing Static GLB Exports"
+    },
+    {
+      "path": "source/b9553cf60320be10cb644859c83986e515994895/docs/ASSET-MANIFEST.md",
+      "matchingStoredFiles": [],
+      "decision": "Retain Original Generator Closure And Attribution; Do Not Duplicate Existing Static GLB Exports"
+    }
+  ],
+  "exclusions": [
+    "Private source photos and student markings",
+    "Credential files, deployment configuration, unrelated lessons and whole-game exports",
+    "Font binaries; demo uses local system fonts"
+  ],
+  "demonstration": {
+    "path": "demo/index.html",
+    "kind": "Live Source Asset Demo; Not A New Game Build Or GLB Export",
+    "sourceSnapshot": "d3d647fd204cebd9ac94d652fbada434a08d7a90",
+    "dependencies": {
+      "three": "0.180.0"
+    },
+    "limitations": "Toon classroom uses approximate dimensions; feedback selection green is not correctness. The upstream overlay packager dirty flag is preserved rather than relabeled.",
+    "evidenceDirectory": "reference-screenshots/0.1.0_Unassigned_pr-9_build-003_20260930T035321Z_gc567ddf0612d_web-review"
+  },
+  "consumer": {
+    "repository": "https://github.com/AbbyUsesAIThatCodes/ThreeKindsOfLevers",
+    "runtimeCommit": "c567ddf0612dd25501144809031e0c4daf929753",
+    "evidenceCheckpoint": "2d56d8185148d09eaad1d92d1e06e56b44090755",
+    "buildId": "0.1.0_Unassigned_pr-9_build-003_20260930T035321Z_gc567ddf0612d_web-review",
+    "graphicsByteIdentity": [
+      {
+        "path": "src/classroom/classroom.js",
+        "sha256": "cda26e5d872bf272635ef21c9e9ea44ecf010d1a9be082815af94c351d164685"
+      },
+      {
+        "path": "src/classroom/layout.js",
+        "sha256": "bda51e570e458e07587afa45a5c9aea9218250c577bf0d23958d0f8d75fd1876"
+      },
+      {
+        "path": "src/classroom/textures.js",
+        "sha256": "0c2cbbdbb9a6dea9bc22bab75560518b0b5bfa005f8d6d70adff703364f662f6"
+      },
+      {
+        "path": "src/examples.js",
+        "sha256": "1680f58cb6b15f5f2599c459ac34026b45fcffdac8cff19987b4b3923b48bc68"
+      },
+      {
+        "path": "src/scene.js",
+        "sha256": "e3d7e9d56171011206f5b837cf6a74cf2f6332591fd9a09e035a8b28d74e2d5d"
+      },
+      {
+        "path": "src/workshop.js",
+        "sha256": "0241a59b9a2079697e54ffab60b11d0fc41ca46ff351d54c2f1285c867bb3dac"
+      },
+      {
+        "path": "src/model.js",
+        "sha256": "05f6775d4bb540e16dfcc1fff5a4fdba2f496f6b668725723bccf1de9e7da33a"
+      }
+    ],
+    "scope": "Phone scrolling, subtitle wrapping and visible headings; archived graphics generators byte-identical"
+  }
+}

@@ -23,3 +23,10 @@ workshop ancestor and adapted procedural graphics with [exact source records](pa
 Its original-art license is also unspecified. Three.js `0.180.0` is installed
 as a development dependency for the local demonstration; its [MIT license](packs/measure-twice/licenses/three-LICENSE.txt)
 is retained. No additional font binaries or private classroom material are copied.
+
+The [ThreeKindsOfLevers pack](packs/three-kinds-of-levers/README.md) preserves
+ClassroomVirtualization and MechanicalAdvantage/LeverWorkshop attribution, with
+exact ancestry in its [provenance](packs/three-kinds-of-levers/provenance.json).
+It uses Three.js `0.180.0` under MIT and retains the original Comic Neue OFL notice.
+No font binaries or private reference photographs are redistributed; the original
+art's license remains unspecified.
