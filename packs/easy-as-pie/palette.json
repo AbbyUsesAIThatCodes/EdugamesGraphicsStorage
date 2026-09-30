@@ -1,0 +1,60 @@
+{
+  "sourceRevision": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+  "scope": "Actual EasyAsPie Materials; No Shared Engine API",
+  "materials": [
+    {
+      "name": "Selected Serving",
+      "source": "src/pies.js:setPieServing",
+      "outline": "#7536ed",
+      "innerOutline": "#eadcff",
+      "innerDepthTest": false
+    },
+    {
+      "name": "Hovered Or Focused Piece",
+      "source": "src/pies.js:pieceOutline/paintFeedback",
+      "outline": "#24182c",
+      "dashes": "#fff7dc",
+      "emissive": "#6e37e7",
+      "emissiveIntensity": 0.3,
+      "meaning": "Temporary emphasis; does not change amount"
+    },
+    {
+      "name": "Correct",
+      "source": "src/pies.js:paintFeedback",
+      "color": "#1a9857",
+      "emissiveIntensity": 0.2,
+      "meaning": "Applies to selected berries and serving border; pair with Correct text"
+    },
+    {
+      "name": "Incorrect",
+      "source": "src/pies.js:paintFeedback",
+      "color": "#d84252",
+      "emissiveIntensity": 0.2,
+      "meaning": "Pair with Not Yet text"
+    },
+    {
+      "name": "Bar Selected",
+      "source": "src/bakery-room.js:setBarServing",
+      "color": "#7750d6",
+      "dot": "#fff5da"
+    },
+    {
+      "name": "Bar Unselected",
+      "source": "src/bakery-room.js:setBarServing",
+      "color": "#f9e7bf"
+    },
+    {
+      "name": "Knife Blade",
+      "source": "src/slice-motion.js",
+      "color": "#dbe8ef",
+      "roughness": 0.18,
+      "metalness": 0.8
+    },
+    {
+      "name": "Knife Handle",
+      "source": "src/slice-motion.js",
+      "color": "#634192",
+      "roughness": 0.28
+    }
+  ]
+}

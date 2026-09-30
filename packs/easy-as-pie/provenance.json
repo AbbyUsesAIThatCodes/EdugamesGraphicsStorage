@@ -1,0 +1,173 @@
+{
+  "source": {
+    "repository": "https://github.com/AbbyUsesAIThatCodes/EasyAsPie",
+    "commit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+    "version": "0.3.0",
+    "codename": null,
+    "status": "Historical Preparation; Replacement Learn Prediction Identity Pending",
+    "pullRequest": "https://github.com/AbbyUsesAIThatCodes/EasyAsPie/pull/22"
+  },
+  "upstreamBuild": {
+    "id": "0.3.0_Unassigned_pr-22_build-001_20260930T033257Z_ge3c0846d2599_web",
+    "manifest": "history/0.3.0_Unassigned_pr-22_build-001_20260930T033257Z_ge3c0846d2599_web/build.json",
+    "sha256": "c512327b3fde9105e128ba5b51e6bc1d48459c87d7f96cffbf095677fe76b623",
+    "bytes": 542,
+    "sourceField": "sha",
+    "status": "Exact Upstream Build Reference; Not A Storage Export"
+  },
+  "manifestCheckpoint": "4449fb37d92e7a09b0c1f4ac51e1682e82b41210",
+  "history": [],
+  "snapshotFiles": [
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "src/bakery-geometry.js",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/src/bakery-geometry.js",
+      "sha256": "754c71fe060d694a5a39b3f97fbe1537e56229f42be0a17accb7dac07c4c2eab",
+      "bytes": 6901
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "src/bakery-room.js",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/src/bakery-room.js",
+      "sha256": "1c5e07ff7cbbe7c7acbeac24d409830984bd03a41477ff9c9c5a17e0c5623b3d",
+      "bytes": 5501
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "src/pies.js",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/src/pies.js",
+      "sha256": "7ce39f7cac98e81f2417b96de687b6e7768625e692e9071dd0e171af540b9008",
+      "bytes": 18256
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "src/slice-motion.js",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/src/slice-motion.js",
+      "sha256": "bb849091fd637c74668b10bb84d76d7964cc0a43b43e7b115675f1bf4c3d9a6e",
+      "bytes": 2530
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "package.json",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/package.json",
+      "sha256": "00ec1921cb03823f84eed12f07e62e69e5872f2dc841feba7771088a1e866b03",
+      "bytes": 488
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "package-lock.json",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/package-lock.json",
+      "sha256": "ba82abbbb876516996ebb7e03865b2ca8cd3fbe36b6a0dfae8b4848a63ed0a59",
+      "bytes": 25360
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "docs/ASSET_HANDOFF.md",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/docs/ASSET_HANDOFF.md",
+      "sha256": "988c1427e010ca8eb0519d7005d901ff816c44acdf5371c7aaa5228819da5c7e",
+      "bytes": 2139
+    },
+    {
+      "sourceCommit": "4449fb37d92e7a09b0c1f4ac51e1682e82b41210",
+      "sourcePath": "docs/ASSET_HANDOFF.json",
+      "path": "source/4449fb37d92e7a09b0c1f4ac51e1682e82b41210/docs/ASSET_HANDOFF.json",
+      "sha256": "9a9db936c0b95454c476a2fdc65e520634996456cd8282d8112d02caf5786d39",
+      "bytes": 1202
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "tests/bars-geometry.test.js",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/tests/bars-geometry.test.js",
+      "sha256": "36a548a195508cecfe7fa7b022c1841801ec31a263f83e5d78ac01101db3ac4d",
+      "bytes": 1647
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "tests/closed-solids.test.js",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/tests/closed-solids.test.js",
+      "sha256": "d1cd0a4ac49eb9a8866df96c6a4a496aca33e007810f542158b94df9a095fe56",
+      "bytes": 2200
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "tests/selection-geometry.test.js",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/tests/selection-geometry.test.js",
+      "sha256": "6b2169c51ac272bfff3989dbf412ea303544bcb1fcfe493b750ef45513a06fe2",
+      "bytes": 2636
+    }
+  ],
+  "dependencyAssets": [
+    {
+      "path": "licenses/three-LICENSE.txt",
+      "package": "three",
+      "version": "0.186.1",
+      "packagePath": "LICENSE",
+      "license": "MIT",
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "bytes": 1081
+    }
+  ],
+  "licenseStatus": "Original EasyAsPie graphics; no repository-wide license supplied or inferred. Three.js MIT. Comic Sans is a device font, not redistributed.",
+  "duplicationReview": [
+    {
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/src/bakery-geometry.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Original Generator Closure; No Duplicate Generic Pack"
+    },
+    {
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/src/bakery-room.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Original Generator Closure; No Duplicate Generic Pack"
+    },
+    {
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/src/pies.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Original Generator Closure; No Duplicate Generic Pack"
+    },
+    {
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/src/slice-motion.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Original Generator Closure; No Duplicate Generic Pack"
+    },
+    {
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/package.json",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Original Generator Closure; No Duplicate Generic Pack"
+    },
+    {
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/package-lock.json",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Original Generator Closure; No Duplicate Generic Pack"
+    },
+    {
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/docs/ASSET_HANDOFF.md",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Original Generator Closure; No Duplicate Generic Pack"
+    },
+    {
+      "path": "source/4449fb37d92e7a09b0c1f4ac51e1682e82b41210/docs/ASSET_HANDOFF.json",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Original Generator Closure; No Duplicate Generic Pack"
+    }
+  ],
+  "exclusions": [
+    "Private curriculum documents, student data, credentials and deployment configuration",
+    "Gameplay state, lesson prose and full-game distribution",
+    "Concept art bitmap and font binaries"
+  ],
+  "acceptance": {
+    "teacherVisualAcceptance": "Pending",
+    "visualLimit": "Implementation does not claim pixel equivalence with the richer Concept B textures and lighting.",
+    "upstreamTests": "24 automated tests and selection/transformation/browser suites reported passed for the initial game identity; independently verified asset tests are recorded separately."
+  },
+  "demonstration": {
+    "path": "demo/index.html",
+    "kind": "Live Source Asset Demo; Not A New Game Build Or GLB Export",
+    "sourceSnapshot": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+    "dependencies": {
+      "three": "0.186.1"
+    },
+    "dependencyInstall": "npm ci --prefix packs/easy-as-pie/demo",
+    "limitations": "Local controls adapt the original renderer. Selection/feedback is paired with text; teacher acceptance remains pending."
+  }
+}

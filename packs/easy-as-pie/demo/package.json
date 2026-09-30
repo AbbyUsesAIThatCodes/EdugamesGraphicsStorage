@@ -1,0 +1,8 @@
+{
+  "name": "easy-as-pie-asset-demo",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "three": "0.186.1"
+  }
+}
