@@ -50,3 +50,12 @@ Use the original font stack when matching the classroom interface:
 `"Comic Sans MS", "Comic Sans", "Comic Neue", cursive`. Comic Neue regular and
 bold are included; Comic Sans remains a system font. Use Title Case for titles
 and headings. Exact CSS and the full typography declaration remain in the source.
+
+## Multiview Pastel Columns
+
+The [Multiview pack](packs/multiview-mystery/README.md) adds mint, blue, amber,
+and lilac columns. Preserve fixed green target drawings and amber student outlines
+so color still communicates a consistent comparison role. This original Canvas
+renderer uses 3D geometry and flat shading; it does not claim Levers-style PBR
+materials or soft-shadow rendering. The shared standards call for vivid, cartoony
+3D and movable cameras; renderer upgrades remain game-specific work.

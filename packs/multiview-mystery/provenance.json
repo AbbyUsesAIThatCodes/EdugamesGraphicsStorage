@@ -1,0 +1,125 @@
+{
+  "source": {
+    "repository": "https://github.com/AbbyUsesAIThatCodes/MultiviewMystery",
+    "commit": "bc81ef1d4c8ffe7f5e8b84f7b7ba0ce88083507c",
+    "ref": "codex/multiview-guidance-and-reference",
+    "version": "0.1.0",
+    "codename": "First Light",
+    "status": "Unmerged Review Source"
+  },
+  "originalCommit": "e42fbae7a091e80c5c4cc5acb37b2ef4e95f5385",
+  "snapshotFiles": [
+    {
+      "sourceCommit": "e42fbae7a091e80c5c4cc5acb37b2ef4e95f5385",
+      "sourcePath": "dist/app.js",
+      "path": "source-original/dist/app.js",
+      "sha256": "8b9dae6cde4d870e212a6acf361f654a57e4102033f93b8aa81a287fa6ea2f62",
+      "bytes": 13165
+    },
+    {
+      "sourceCommit": "e42fbae7a091e80c5c4cc5acb37b2ef4e95f5385",
+      "sourcePath": "dist/index.html",
+      "path": "source-original/dist/index.html",
+      "sha256": "7b2598b865c99193494e00634cb6fcdab9e661ecc88a48dd81e83df9ba2b9707",
+      "bytes": 7144
+    },
+    {
+      "sourceCommit": "e42fbae7a091e80c5c4cc5acb37b2ef4e95f5385",
+      "sourcePath": "dist/logic.mjs",
+      "path": "source-original/dist/logic.mjs",
+      "sha256": "b0dcc7bee212462379a877161a63905e9223d849ac7eea40ccb90200a80fbf18",
+      "bytes": 4378
+    },
+    {
+      "sourceCommit": "e42fbae7a091e80c5c4cc5acb37b2ef4e95f5385",
+      "sourcePath": "dist/scene.mjs",
+      "path": "source-original/dist/scene.mjs",
+      "sha256": "19dabc0c2f6617b1388da513c8c98d114a121bda99aad5a6c2269a19b2ba1dbb",
+      "bytes": 5941
+    },
+    {
+      "sourceCommit": "e42fbae7a091e80c5c4cc5acb37b2ef4e95f5385",
+      "sourcePath": "dist/style.css",
+      "path": "source-original/dist/style.css",
+      "sha256": "863ee0743406d5774005f770f0f82910d7db9c296d5d86513db7888a234b659b",
+      "bytes": 10721
+    },
+    {
+      "sourceCommit": "bc81ef1d4c8ffe7f5e8b84f7b7ba0ce88083507c",
+      "sourcePath": "THIRD_PARTY_NOTICES.md",
+      "path": "source-current/THIRD_PARTY_NOTICES.md",
+      "sha256": "8ab45d96ce01976d8ba24a677089b761502def0a222715b5ed142000ac994a06",
+      "bytes": 644
+    },
+    {
+      "sourceCommit": "bc81ef1d4c8ffe7f5e8b84f7b7ba0ce88083507c",
+      "sourcePath": "dist/app.js",
+      "path": "source-current/dist/app.js",
+      "sha256": "3439ec71b5297cab7c646962f946ed03cc9624577cb44fa69e6251128980b0bf",
+      "bytes": 18788
+    },
+    {
+      "sourceCommit": "bc81ef1d4c8ffe7f5e8b84f7b7ba0ce88083507c",
+      "sourcePath": "dist/fonts/LICENSE.txt",
+      "path": "source-current/dist/fonts/LICENSE.txt",
+      "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3",
+      "bytes": 4314
+    },
+    {
+      "sourceCommit": "bc81ef1d4c8ffe7f5e8b84f7b7ba0ce88083507c",
+      "sourcePath": "dist/fonts/comic-neue-bold.woff2",
+      "path": "source-current/dist/fonts/comic-neue-bold.woff2",
+      "sha256": "0c1d3e1eaa4f7b42cd9db94b4dd66ad552f827b2fe008956cbea53775448ba82",
+      "bytes": 18772
+    },
+    {
+      "sourceCommit": "bc81ef1d4c8ffe7f5e8b84f7b7ba0ce88083507c",
+      "sourcePath": "dist/fonts/comic-neue-regular.woff2",
+      "path": "source-current/dist/fonts/comic-neue-regular.woff2",
+      "sha256": "30032375de9172d3d74f03e435544f19b40f09dce208204ee9b9e92b29ef36b3",
+      "bytes": 19136
+    },
+    {
+      "sourceCommit": "bc81ef1d4c8ffe7f5e8b84f7b7ba0ce88083507c",
+      "sourcePath": "dist/index.html",
+      "path": "source-current/dist/index.html",
+      "sha256": "a5644f8cc759b49ea5fcb15e8306723f9d2685297181c327f311794d10a06aad",
+      "bytes": 8915
+    },
+    {
+      "sourceCommit": "bc81ef1d4c8ffe7f5e8b84f7b7ba0ce88083507c",
+      "sourcePath": "dist/logic.mjs",
+      "path": "source-current/dist/logic.mjs",
+      "sha256": "9671c2505aff4edf3a5b31d53a4c1359db6da9ec705934c0e327266d2c25c1af",
+      "bytes": 4378
+    },
+    {
+      "sourceCommit": "bc81ef1d4c8ffe7f5e8b84f7b7ba0ce88083507c",
+      "sourcePath": "dist/reference.mjs",
+      "path": "source-current/dist/reference.mjs",
+      "sha256": "a1bec1a2d89499fa73991d44c76645bd6911dad8e8591d1aee802efa784c7d2a",
+      "bytes": 13041
+    },
+    {
+      "sourceCommit": "bc81ef1d4c8ffe7f5e8b84f7b7ba0ce88083507c",
+      "sourcePath": "dist/scene.mjs",
+      "path": "source-current/dist/scene.mjs",
+      "sha256": "4c1a14e5e8951b097b67506d8a98d9efa7b04c83e1ff16fdbb028492b5ef8b74",
+      "bytes": 6174
+    },
+    {
+      "sourceCommit": "bc81ef1d4c8ffe7f5e8b84f7b7ba0ce88083507c",
+      "sourcePath": "dist/style.css",
+      "path": "source-current/dist/style.css",
+      "sha256": "5cbb524038383f7e23d8cb7c136fb23c0720ba0d459da592f0b79e78b381c12f",
+      "bytes": 14501
+    },
+    {
+      "sourceCommit": "bc81ef1d4c8ffe7f5e8b84f7b7ba0ce88083507c",
+      "sourcePath": "release.json",
+      "path": "source-current/release.json",
+      "sha256": "aaf5aca2bdc8caad99eb6295ab3ddf49d0d550e39eedaae4df003ad76580cf0b",
+      "bytes": 284
+    }
+  ]
+}
