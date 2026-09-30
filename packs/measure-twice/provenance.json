@@ -1,25 +1,29 @@
 {
   "source": {
     "repository": "https://github.com/AbbyUsesAIThatCodes/MeasureTwice",
-    "commit": "0aa38965fd781fa4cf3d66b404aa0ccf379e466c",
+    "commit": "3408719e614a0531eee21135b562462dbf824a5f",
     "ref": "review/issues-7-8-learning",
     "version": "0.1.0",
     "codename": "Predict Cut Inspect",
-    "status": "Prior Review Snapshot; Replacement Final Identity Pending",
+    "status": "Unmerged Review Source",
     "pullRequest": "https://github.com/AbbyUsesAIThatCodes/MeasureTwice/pull/14"
   },
   "upstreamBuild": {
-    "id": "0.1.0_Predict-Cut-Inspect_pr-14_build-001_20260930T031537Z_g0aa38965fd78_web",
-    "manifest": "history/0.1.0_Predict-Cut-Inspect_pr-14_build-001_20260930T031537Z_g0aa38965fd78_web/build-manifest.json",
-    "sha256": "32d22eb203381250d10b4186edbd03c44bf7a5beaf701de3e9ba7211f56f3824",
+    "id": "0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web",
+    "manifest": "history/0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web/build-manifest.json",
+    "sha256": "5df9f5d64097015335cc3da58fb8ad29a8f86eda7e92836e297cf34820614044",
     "bytes": 767,
-    "status": "Preserved Prior Worker Build; Not A Storage Export"
+    "status": "Verified Final Worker Build Reference; Not A Storage Export"
   },
   "history": [
     {
       "commit": "0aa38965fd781fa4cf3d66b404aa0ccf379e466c",
       "buildId": "0.1.0_Predict-Cut-Inspect_pr-14_build-001_20260930T031537Z_g0aa38965fd78_web",
-      "reason": "Initial parent-supplied identity, retained while the worker corrects assessment labels."
+      "buildManifest": "history/0.1.0_Predict-Cut-Inspect_pr-14_build-001_20260930T031537Z_g0aa38965fd78_web/build-manifest.json",
+      "buildManifestSHA256": "32d22eb203381250d10b4186edbd03c44bf7a5beaf701de3e9ba7211f56f3824",
+      "storageRevision": "a97a4aa232ea527d4272ab0f414754981a4b4618",
+      "verification": "reference-screenshots/0aa38965fd781fa4cf3d66b404aa0ccf379e466c/verification.json",
+      "reason": "Prior validated review snapshot retained unchanged; superseded by the final assessment-label/exposure correction."
     }
   ],
   "baseline": {
@@ -113,6 +117,90 @@
       "path": "source/0aa38965fd781fa4cf3d66b404aa0ccf379e466c/pnpm-lock.yaml",
       "sha256": "4efcbe4f1b35006f1de268ecdbb50d1ad1cd4dad90e60e1106333584d03992c5",
       "bytes": 381
+    },
+    {
+      "sourceCommit": "3408719e614a0531eee21135b562462dbf824a5f",
+      "sourcePath": "src/workshop.js",
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/src/workshop.js",
+      "sha256": "6f9f0636113035971994d463d7756867d6e5c099f168943f96c625513aa8a5ff",
+      "bytes": 6415
+    },
+    {
+      "sourceCommit": "3408719e614a0531eee21135b562462dbf824a5f",
+      "sourcePath": "src/app.js",
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/src/app.js",
+      "sha256": "a33915f7b8b7d5c90d4e75490c7aca0ce833eb2c30bd1e1a406812a1646bd003",
+      "bytes": 22259
+    },
+    {
+      "sourceCommit": "3408719e614a0531eee21135b562462dbf824a5f",
+      "sourcePath": "src/model.js",
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/src/model.js",
+      "sha256": "fee8418c4e8332c6e28c9a96bb4a5d139cee7f5aa961e3794b04925ea6b5b24c",
+      "bytes": 2784
+    },
+    {
+      "sourceCommit": "3408719e614a0531eee21135b562462dbf824a5f",
+      "sourcePath": "data/house.json",
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/data/house.json",
+      "sha256": "0c69033ed8c0610f9b49c9349e4833b5de679ac1a616bde78be9741a6488f9fb",
+      "bytes": 1195
+    },
+    {
+      "sourceCommit": "3408719e614a0531eee21135b562462dbf824a5f",
+      "sourcePath": "public/index.html",
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/public/index.html",
+      "sha256": "04697bc31c9ce450dc57cd7412ab4f9cf89adfd923a84925839e631feb2c341a",
+      "bytes": 4829
+    },
+    {
+      "sourceCommit": "3408719e614a0531eee21135b562462dbf824a5f",
+      "sourcePath": "public/style.css",
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/public/style.css",
+      "sha256": "ffb9800826c88bd48c403558196aca94d3cea424b27d31fb17853fcc557fce65",
+      "bytes": 4145
+    },
+    {
+      "sourceCommit": "3408719e614a0531eee21135b562462dbf824a5f",
+      "sourcePath": "public/reference.css",
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/public/reference.css",
+      "sha256": "e535b11aa429e3bfdb442504713eb1e4e76dc7c7247b362695f62977b91818ac",
+      "bytes": 7719
+    },
+    {
+      "sourceCommit": "3408719e614a0531eee21135b562462dbf824a5f",
+      "sourcePath": "docs/ASSET_MANIFEST.json",
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/docs/ASSET_MANIFEST.json",
+      "sha256": "e7922c63767a7057e97b2ca336e4ac3110d07de53a69aa3a254ed54d604d361d",
+      "bytes": 1663
+    },
+    {
+      "sourceCommit": "3408719e614a0531eee21135b562462dbf824a5f",
+      "sourcePath": "docs/mockups/predict-cut-inspect/source.fragment.html",
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/docs/mockups/predict-cut-inspect/source.fragment.html",
+      "sha256": "dc9a6aa15a42497c54bb52d3fc6d72d5fa6a358904ff7950dd1c86d1954ad992",
+      "bytes": 34425
+    },
+    {
+      "sourceCommit": "3408719e614a0531eee21135b562462dbf824a5f",
+      "sourcePath": "release.json",
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/release.json",
+      "sha256": "1ab510c85b634605193dd2d4cd5e925845b12e41c5b5c6889235554b34ee663e",
+      "bytes": 328
+    },
+    {
+      "sourceCommit": "3408719e614a0531eee21135b562462dbf824a5f",
+      "sourcePath": "package.json",
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/package.json",
+      "sha256": "15f3537fadee05096f7c13820bb667036137911b93fef8adf27dfe2148ccbb37",
+      "bytes": 286
+    },
+    {
+      "sourceCommit": "3408719e614a0531eee21135b562462dbf824a5f",
+      "sourcePath": "pnpm-lock.yaml",
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/pnpm-lock.yaml",
+      "sha256": "4efcbe4f1b35006f1de268ecdbb50d1ad1cd4dad90e60e1106333584d03992c5",
+      "bytes": 381
     }
   ],
   "dependencyAssets": [
@@ -186,6 +274,66 @@
       "path": "source/0aa38965fd781fa4cf3d66b404aa0ccf379e466c/pnpm-lock.yaml",
       "matchingStoredFiles": [],
       "decision": "Preserve Pinned MeasureTwice Source For Generator Reuse And Attribution"
+    },
+    {
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/src/workshop.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Immutable Snapshot; Earlier Snapshot Remains Historical"
+    },
+    {
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/src/app.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Immutable Snapshot; Earlier Snapshot Remains Historical"
+    },
+    {
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/src/model.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Immutable Snapshot; Earlier Snapshot Remains Historical"
+    },
+    {
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/data/house.json",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Immutable Snapshot; Earlier Snapshot Remains Historical"
+    },
+    {
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/public/index.html",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Immutable Snapshot; Earlier Snapshot Remains Historical"
+    },
+    {
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/public/style.css",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Immutable Snapshot; Earlier Snapshot Remains Historical"
+    },
+    {
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/public/reference.css",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Immutable Snapshot; Earlier Snapshot Remains Historical"
+    },
+    {
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/docs/ASSET_MANIFEST.json",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Immutable Snapshot; Earlier Snapshot Remains Historical"
+    },
+    {
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/docs/mockups/predict-cut-inspect/source.fragment.html",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Immutable Snapshot; Earlier Snapshot Remains Historical"
+    },
+    {
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/release.json",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Immutable Snapshot; Earlier Snapshot Remains Historical"
+    },
+    {
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/package.json",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Immutable Snapshot; Earlier Snapshot Remains Historical"
+    },
+    {
+      "path": "source/3408719e614a0531eee21135b562462dbf824a5f/pnpm-lock.yaml",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Immutable Snapshot; Earlier Snapshot Remains Historical"
     }
   ],
   "exclusions": [
@@ -205,6 +353,28 @@
       "src/app.js:highlight",
       "src/model.js:comparisonPlacement"
     ],
-    "sourceSnapshot": "0aa38965fd781fa4cf3d66b404aa0ccf379e466c"
+    "sourceSnapshot": "3408719e614a0531eee21135b562462dbf824a5f"
+  },
+  "currentSnapshot": "source/3408719e614a0531eee21135b562462dbf824a5f",
+  "revisionComparison": {
+    "previous": "0aa38965fd781fa4cf3d66b404aa0ccf379e466c",
+    "current": "3408719e614a0531eee21135b562462dbf824a5f",
+    "unchangedFiles": [
+      "src/workshop.js",
+      "data/house.json",
+      "public/index.html",
+      "public/style.css",
+      "public/reference.css",
+      "docs/ASSET_MANIFEST.json",
+      "docs/mockups/predict-cut-inspect/source.fragment.html",
+      "release.json",
+      "package.json",
+      "pnpm-lock.yaml"
+    ],
+    "changedFiles": [
+      "src/app.js",
+      "src/model.js"
+    ],
+    "notes": "Only src/app.js and src/model.js changed for target-label/exposure and response-history behavior. Workshop, house schedule, rack placement, and feedback material values remain unchanged. Both source snapshots are preserved; the live demo uses the final one."
   }
 }

@@ -8,7 +8,7 @@ models, textures, icons, fonts, and visual references with traceable origins.
 | Pack | Contents | Source |
 | --- | --- | --- |
 | [Levers: Load, Effort, and Distance](packs/levers-load-effort-distance/README.md) | 15 GLB models; procedural Three.js sources; wood texture; SVG diagram and icon; fonts; reference screenshots | Latest merged game snapshot, September 29, 2026 |
-| [MeasureTwice](packs/measure-twice/README.md) | Sunny Woodshop; 17-piece house; comparison rack; feedback materials; local procedural demo | Prior review snapshot; final identity pending |
+| [MeasureTwice](packs/measure-twice/README.md) | Sunny Woodshop; 17-piece house; comparison rack; feedback materials; local procedural demo | Final unmerged game review, September 30, 2026 |
 
 Start with the pack's [asset catalog](packs/levers-load-effort-distance/CATALOG.md)
 to choose an object or the [visual style guide](STYLE_GUIDE.md) to match its look.

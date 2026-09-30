@@ -1,8 +1,8 @@
 // Static asset adapter. Archived generators remain byte-identical to upstream.
-import {createWorkshop} from '../source/0aa38965fd781fa4cf3d66b404aa0ccf379e466c/src/workshop.js';
-import {comparisonPlacement} from '../source/0aa38965fd781fa4cf3d66b404aa0ccf379e466c/src/model.js';
+import {createWorkshop} from '../source/3408719e614a0531eee21135b562462dbf824a5f/src/workshop.js';
+import {comparisonPlacement} from '../source/3408719e614a0531eee21135b562462dbf824a5f/src/model.js';
 const [house,palette,provenance]=await Promise.all([
-  fetch('../source/0aa38965fd781fa4cf3d66b404aa0ccf379e466c/data/house.json').then(r=>r.json()),
+  fetch('../source/3408719e614a0531eee21135b562462dbf824a5f/data/house.json').then(r=>r.json()),
   fetch('../palette.json').then(r=>r.json()),fetch('../provenance.json').then(r=>r.json())
 ]);
 const w=createWorkshop(document.querySelector('#stage'));

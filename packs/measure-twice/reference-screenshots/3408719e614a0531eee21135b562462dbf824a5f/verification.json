@@ -1,0 +1,797 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-09-30T03:43:22.086Z",
+  "kind": "Local Live Source Asset Demo; Not An Upstream Game Build Or GLB Export",
+  "sourceCommit": "3408719e614a0531eee21135b562462dbf824a5f",
+  "upstreamBuild": "0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web",
+  "browser": "154.0.8037.92",
+  "rendering": "Headless Chromium WebGL With SwiftShader Enabled",
+  "three": "0.180.0",
+  "viewport": [
+    1366,
+    900
+  ],
+  "additionalViewports": [
+    [
+      1366,
+      768
+    ],
+    [
+      1024,
+      768
+    ]
+  ],
+  "checks": [
+    "Eight static asset states rendered",
+    "17 unchanged-length house pieces",
+    "Nine aligned rack pieces with second layer",
+    "Actual material colors, intensities, widths, opacity/depth properties",
+    "Reduced-motion checkmark",
+    "Camera drag and visible source identity at two laptop sizes",
+    "No page errors or external browser requests"
+  ],
+  "inputs": [
+    {
+      "path": "demo/index.html",
+      "sha256": "c69b40c441fb4fb4c1dd75727bc36d45bb08d64d246a9555e0dbaf125702d677"
+    },
+    {
+      "path": "demo/demo.mjs",
+      "sha256": "c2f46b87d01a543c250c1040affd425903e95c4cef89385f582e21e26730ee5d"
+    },
+    {
+      "path": "palette.json",
+      "sha256": "423fc1b3a329ee3e3518be6dd42a6da5d0af0a2998f5724144fc5b8e79dc1a50"
+    },
+    {
+      "path": "provenance.json",
+      "sha256": "cb94ad896213c7b550d344935451f46c5fb668b2fd269890ed7ce273ec174094"
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "snapshots": [
+    {
+      "view": "workshop",
+      "source": "3408719e614a0531eee21135b562462dbf824a5f",
+      "upstreamBuild": "0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web",
+      "objects": [],
+      "camera": [
+        8.6,
+        9.4,
+        15.3
+      ]
+    },
+    {
+      "view": "house",
+      "source": "3408719e614a0531eee21135b562462dbf824a5f",
+      "upstreamBuild": "0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web",
+      "objects": [
+        {
+          "name": "house-piece",
+          "length": 20,
+          "position": [
+            1.35,
+            4.01,
+            -1.9
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2.5
+        },
+        {
+          "name": "house-piece",
+          "length": 20,
+          "position": [
+            5.35,
+            4.01,
+            -1.9
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2.5
+        },
+        {
+          "name": "house-piece",
+          "length": 20,
+          "position": [
+            1.35,
+            4.01,
+            0.09999999999999998
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2.5
+        },
+        {
+          "name": "house-piece",
+          "length": 20,
+          "position": [
+            5.35,
+            4.01,
+            0.09999999999999998
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2.5
+        },
+        {
+          "name": "house-piece",
+          "length": 20,
+          "position": [
+            2.35,
+            6.01,
+            -1.9
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2.5
+        },
+        {
+          "name": "house-piece",
+          "length": 20,
+          "position": [
+            4.35,
+            6.01,
+            -1.9
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2.5
+        },
+        {
+          "name": "house-piece",
+          "length": 20,
+          "position": [
+            2.35,
+            6.01,
+            0.09999999999999998
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2.5
+        },
+        {
+          "name": "house-piece",
+          "length": 20,
+          "position": [
+            4.35,
+            6.01,
+            0.09999999999999998
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2.5
+        },
+        {
+          "name": "house-piece",
+          "length": 32,
+          "position": [
+            3.3499999999999996,
+            2.76,
+            -1.9
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 4
+        },
+        {
+          "name": "house-piece",
+          "length": 32,
+          "position": [
+            3.3499999999999996,
+            2.76,
+            0.09999999999999998
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 4
+        },
+        {
+          "name": "house-piece",
+          "length": 32,
+          "position": [
+            3.3499999999999996,
+            5.26,
+            -1.9
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 4
+        },
+        {
+          "name": "house-piece",
+          "length": 32,
+          "position": [
+            3.3499999999999996,
+            5.26,
+            0.09999999999999998
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 4
+        },
+        {
+          "name": "house-piece",
+          "length": 16,
+          "position": [
+            1.35,
+            2.76,
+            -0.8999999999999999
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2
+        },
+        {
+          "name": "house-piece",
+          "length": 16,
+          "position": [
+            5.35,
+            2.76,
+            -0.8999999999999999
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2
+        },
+        {
+          "name": "house-piece",
+          "length": 16,
+          "position": [
+            1.35,
+            5.26,
+            -0.8999999999999999
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2
+        },
+        {
+          "name": "house-piece",
+          "length": 16,
+          "position": [
+            5.35,
+            5.26,
+            -0.8999999999999999
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2
+        },
+        {
+          "name": "house-piece",
+          "length": 16,
+          "position": [
+            3.35,
+            6.76,
+            -0.8999999999999999
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2
+        }
+      ],
+      "camera": [
+        9,
+        7,
+        10
+      ]
+    },
+    {
+      "view": "rack",
+      "source": "3408719e614a0531eee21135b562462dbf824a5f",
+      "upstreamBuild": "0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web",
+      "objects": [
+        {
+          "name": "rack-piece",
+          "length": 7,
+          "index": 0,
+          "position": [
+            0.7375,
+            2.91,
+            1.95
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 0.875
+        },
+        {
+          "name": "rack-piece",
+          "length": 26,
+          "index": 1,
+          "position": [
+            1.925,
+            2.91,
+            1.23
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 3.25
+        },
+        {
+          "name": "rack-piece",
+          "length": 48,
+          "index": 2,
+          "position": [
+            3.3,
+            2.91,
+            0.51
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 6
+        },
+        {
+          "name": "rack-piece",
+          "length": 16,
+          "index": 3,
+          "position": [
+            1.3,
+            2.91,
+            -0.2100000000000002
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2
+        },
+        {
+          "name": "rack-piece",
+          "length": 20,
+          "index": 4,
+          "position": [
+            1.55,
+            2.91,
+            -0.9299999999999999
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2.5
+        },
+        {
+          "name": "rack-piece",
+          "length": 12,
+          "index": 5,
+          "position": [
+            1.05,
+            2.91,
+            -1.6499999999999997
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 1.5
+        },
+        {
+          "name": "rack-piece",
+          "length": 32,
+          "index": 6,
+          "position": [
+            2.3,
+            2.91,
+            -2.37
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 4
+        },
+        {
+          "name": "rack-piece",
+          "length": 18,
+          "index": 7,
+          "position": [
+            1.425,
+            2.91,
+            -3.09
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2.25
+        },
+        {
+          "name": "rack-piece",
+          "length": 24,
+          "index": 8,
+          "position": [
+            1.8,
+            3.31,
+            1.95
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 3
+        }
+      ],
+      "camera": [
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "view": "neutral",
+      "source": "3408719e614a0531eee21135b562462dbf824a5f",
+      "upstreamBuild": "0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web",
+      "objects": [
+        {
+          "name": "inspection",
+          "position": [
+            0,
+            3.72,
+            3.7
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2.5
+        }
+      ],
+      "inspection": [
+        {
+          "name": "actual-piece",
+          "dimensions": {
+            "width": 2.5,
+            "height": 0.22,
+            "depth": 0.63,
+            "widthSegments": 1,
+            "heightSegments": 1,
+            "depthSegments": 1
+          },
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": "ffffff",
+          "emissive": "000000",
+          "emissiveIntensity": 1,
+          "opacity": 1,
+          "depthWrite": true
+        }
+      ],
+      "camera": [
+        0,
+        5.1,
+        10.8
+      ]
+    },
+    {
+      "view": "short",
+      "source": "3408719e614a0531eee21135b562462dbf824a5f",
+      "upstreamBuild": "0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web",
+      "objects": [
+        {
+          "name": "inspection",
+          "position": [
+            0,
+            3.72,
+            3.7
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2.25
+        }
+      ],
+      "inspection": [
+        {
+          "name": "actual-piece",
+          "dimensions": {
+            "width": 2.25,
+            "height": 0.22,
+            "depth": 0.63,
+            "widthSegments": 1,
+            "heightSegments": 1,
+            "depthSegments": 1
+          },
+          "position": [
+            -0.125,
+            0,
+            0
+          ],
+          "color": "ffffff",
+          "emissive": "cd3023",
+          "emissiveIntensity": 0.18,
+          "opacity": 1,
+          "depthWrite": true
+        },
+        {
+          "name": "missing-wood",
+          "dimensions": {
+            "width": 0.25,
+            "height": 0.225,
+            "depth": 0.645,
+            "widthSegments": 1,
+            "heightSegments": 1,
+            "depthSegments": 1
+          },
+          "position": [
+            1.125,
+            0,
+            0
+          ],
+          "color": "ed6055",
+          "emissive": "000000",
+          "emissiveIntensity": 1,
+          "opacity": 0.48,
+          "depthWrite": false
+        }
+      ],
+      "camera": [
+        0,
+        5.1,
+        10.8
+      ]
+    },
+    {
+      "view": "long",
+      "source": "3408719e614a0531eee21135b562462dbf824a5f",
+      "upstreamBuild": "0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web",
+      "objects": [
+        {
+          "name": "inspection",
+          "position": [
+            0,
+            3.72,
+            3.7
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2.75
+        }
+      ],
+      "inspection": [
+        {
+          "name": "actual-piece",
+          "dimensions": {
+            "width": 2.75,
+            "height": 0.22,
+            "depth": 0.63,
+            "widthSegments": 1,
+            "heightSegments": 1,
+            "depthSegments": 1
+          },
+          "position": [
+            0.125,
+            0,
+            0
+          ],
+          "color": "ffffff",
+          "emissive": "cd3023",
+          "emissiveIntensity": 0.18,
+          "opacity": 1,
+          "depthWrite": true
+        },
+        {
+          "name": "extra-wood",
+          "dimensions": {
+            "width": 0.25,
+            "height": 0.24,
+            "depth": 0.65,
+            "widthSegments": 1,
+            "heightSegments": 1,
+            "depthSegments": 1
+          },
+          "position": [
+            1.375,
+            0,
+            0
+          ],
+          "color": "e94c41",
+          "emissive": "000000",
+          "emissiveIntensity": 1,
+          "opacity": 0.49,
+          "depthWrite": false
+        },
+        {
+          "name": "target-cut",
+          "dimensions": {
+            "width": 0.035,
+            "height": 0.255,
+            "depth": 0.7,
+            "widthSegments": 1,
+            "heightSegments": 1,
+            "depthSegments": 1
+          },
+          "position": [
+            1.25,
+            0.01,
+            0
+          ],
+          "color": "b84236",
+          "emissive": "000000",
+          "emissiveIntensity": 1,
+          "opacity": 1,
+          "depthWrite": true
+        }
+      ],
+      "camera": [
+        0,
+        5.1,
+        10.8
+      ]
+    },
+    {
+      "view": "correct",
+      "source": "3408719e614a0531eee21135b562462dbf824a5f",
+      "upstreamBuild": "0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web",
+      "objects": [
+        {
+          "name": "inspection",
+          "position": [
+            0,
+            3.72,
+            3.7
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2.5
+        }
+      ],
+      "inspection": [
+        {
+          "name": "actual-piece",
+          "dimensions": {
+            "width": 2.5,
+            "height": 0.22,
+            "depth": 0.63,
+            "widthSegments": 1,
+            "heightSegments": 1,
+            "depthSegments": 1
+          },
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": "ffffff",
+          "emissive": "279e52",
+          "emissiveIntensity": 0.25,
+          "opacity": 1,
+          "depthWrite": true
+        }
+      ],
+      "camera": [
+        0,
+        5.1,
+        10.8
+      ]
+    },
+    {
+      "view": "selected",
+      "source": "3408719e614a0531eee21135b562462dbf824a5f",
+      "upstreamBuild": "0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web",
+      "objects": [
+        {
+          "name": "inspection",
+          "position": [
+            0,
+            3.72,
+            3.7
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "meshWidth": 2.5
+        }
+      ],
+      "inspection": [
+        {
+          "name": "actual-piece",
+          "dimensions": {
+            "width": 2.5,
+            "height": 0.22,
+            "depth": 0.63,
+            "widthSegments": 1,
+            "heightSegments": 1,
+            "depthSegments": 1
+          },
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": "ffffff",
+          "emissive": "15a8ba",
+          "emissiveIntensity": 0.35,
+          "opacity": 1,
+          "depthWrite": true
+        }
+      ],
+      "camera": [
+        0,
+        5.1,
+        10.8
+      ]
+    }
+  ]
+}

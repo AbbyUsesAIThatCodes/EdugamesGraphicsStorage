@@ -5,10 +5,11 @@ selection/inspection graphics from [MeasureTwice PR #14](https://github.com/Abby
 See the [Asset Catalog](CATALOG.md), [Material Palette](palette.json), and
 [Source Record](provenance.json).
 
-**Preparation Snapshot:** source `0aa38965fd781fa4cf3d66b404aa0ccf379e466c` is
-preserved while the game worker corrects assessment labels. Final current-source
-provenance and publication await the replacement identity. This is unmerged review
-work, not a release or a claim of classroom readiness.
+Current source: `3408719e614a0531eee21135b562462dbf824a5f`. The exact upstream
+build reference is
+`0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web`.
+This is unmerged review work, not a release or a claim of classroom readiness.
+The earlier validated source and build 001 remain preserved separately as history.
 
 ## Quick Local Review
 
@@ -76,7 +77,14 @@ Original-art licensing remains unspecified. No license is inferred from this
 import. Three.js is MIT; its [license](licenses/three-LICENSE.txt) is included.
 Comic Sans is a system-font reference; no font binaries are copied.
 
-The [prior upstream build manifest](history/0.1.0_Predict-Cut-Inspect_pr-14_build-001_20260930T031537Z_g0aa38965fd78_web/build-manifest.json)
+The [current upstream build manifest](history/0.1.0_Predict-Cut-Inspect_pr-14_build-003_20260930T033245Z_g3408719e614a_web/build-manifest.json)
 is preserved byte for byte and shown as a source reference in the live demo.
 It is not the identity of a newly built game or storage export. Opening the demo
 does not reserve or consume the game's PR build ordinal.
+
+The [prior build manifest](history/0.1.0_Predict-Cut-Inspect_pr-14_build-001_20260930T031537Z_g0aa38965fd78_web/build-manifest.json),
+source snapshot `0aa38965fd781fa4cf3d66b404aa0ccf379e466c`, and its
+[earlier rendering record](reference-screenshots/0aa38965fd781fa4cf3d66b404aa0ccf379e466c/verification.json)
+remain unchanged. Ten source files match the final snapshot byte for byte; the
+application and model modules changed for assessment/exposure tracking while their
+graphics stayed the same. The final-source demo was rendered and checked again.

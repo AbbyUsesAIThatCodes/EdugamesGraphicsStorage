@@ -1,0 +1,1 @@
+{"name":"measuretwice","private":true,"type":"module","version":"0.1.0","scripts":{"test":"node --test --test-isolation=none tests/*.test.mjs && node scripts/check-house.mjs","build":"node scripts/build.mjs","serve":"node scripts/serve.mjs . 18443"},"dependencies":{"three":"0.180.0"}}

@@ -1,31 +1,151 @@
 {
   "variant": "MeasureTwice Sunny Woodshop",
-  "sourceCommit": "0aa38965fd781fa4cf3d66b404aa0ccf379e466c",
+  "sourceCommit": "3408719e614a0531eee21135b562462dbf824a5f",
   "colorSpace": "sRGB color inputs, before lighting and ACES filmic tone mapping",
-  "sourceSymbols": {"workshop":"src/workshop.js:createWorkshop","inspection":"src/app.js:inspect","selection":"src/app.js:highlight","checkmark":"public/style.css:celebrate"},
+  "sourceSymbols": {
+    "workshop": "src/workshop.js:createWorkshop",
+    "inspection": "src/app.js:inspect",
+    "selection": "src/app.js:highlight",
+    "checkmark": "public/style.css:celebrate"
+  },
   "materials": {
-    "default": {"type":"MeshStandardMaterial","roughness":0.78},
-    "teal": "#448F7A", "tealDark":"#28564B", "yellow":"#E7B649",
-    "steel":{"color":"#C4D0C8","metalness":0.5,"roughness":0.4},
-    "wall":"#CBE8BA", "ivory":"#F8EED3", "dark":"#36473F",
-    "wood":{"color":"#FFFFFF","textureGenerator":"src/workshop.js:woodTexture","textureSize":[512,128],"base":"#DFAE67","grain":["#B87F423B","#F7DBA764"]},
-    "woodDark":"#BB8751", "woodLight":"#E7C083",
-    "houseGhost":{"color":"#689385","transparent":true,"opacity":0.14,"depthWrite":false}
+    "default": {
+      "type": "MeshStandardMaterial",
+      "roughness": 0.78
+    },
+    "teal": "#448F7A",
+    "tealDark": "#28564B",
+    "yellow": "#E7B649",
+    "steel": {
+      "color": "#C4D0C8",
+      "metalness": 0.5,
+      "roughness": 0.4
+    },
+    "wall": "#CBE8BA",
+    "ivory": "#F8EED3",
+    "dark": "#36473F",
+    "wood": {
+      "color": "#FFFFFF",
+      "textureGenerator": "src/workshop.js:woodTexture",
+      "textureSize": [
+        512,
+        128
+      ],
+      "base": "#DFAE67",
+      "grain": [
+        "#B87F423B",
+        "#F7DBA764"
+      ]
+    },
+    "woodDark": "#BB8751",
+    "woodLight": "#E7C083",
+    "houseGhost": {
+      "color": "#689385",
+      "transparent": true,
+      "opacity": 0.14,
+      "depthWrite": false
+    }
   },
   "feedback": {
-    "selected":{"emissive":"#15A8BA","emissiveIntensity":0.35,"cue":"Selected: object label","behavior":"Clone the wood material; restore prior emissive color and intensity on deselection. Selection is not correctness."},
-    "correct":{"emissive":"#279E52","emissiveIntensity":0.25,"cue":"A Perfect Fit, checkmark, and matching lengths"},
-    "incorrect":{"emissive":"#CD3023","emissiveIntensity":0.18,"cue":"Too Short or Too Long and measured difference"},
-    "shortGhost":{"color":"#ED6055","transparent":true,"opacity":0.48,"depthWrite":false,"cue":"Missing wood beyond the actual endpoint"},
-    "longOverlay":{"color":"#E94C41","transparent":true,"opacity":0.49,"depthWrite":false,"cue":"Extra wood beyond the target endpoint"},
-    "targetCut":{"color":"#B84236","cue":"Solid line at the target cut for a long piece"},
-    "targetOutline":{"color":"#587867","type":"LineBasicMaterial","transparent":true,"opacity":0.72},
-    "dimensions":{"target":"#4B6D58","neutral":"#486679","correct":"#4A8857","incorrect":"#B34E41"},
-    "neutral":{"emissive":"#000000","emissiveIntensity":1,"cue":"Your Cut Piece; no target comparison. Three.js defaults to intensity 1 with black emissive, so there is no emitted color."},
-    "checkmarkAnimation":{"durationSeconds":0.45,"easing":"ease-out","scaleFrom":0.4,"scaleTo":1,"opacityFrom":0,"opacityTo":1,"reducedMotion":"No animation"},
-    "timing":"Correctness colors appear only after a committed cut; inspection holds until acknowledgement. The asset demo shows static post-cut examples."
+    "selected": {
+      "emissive": "#15A8BA",
+      "emissiveIntensity": 0.35,
+      "cue": "Selected: object label",
+      "behavior": "Clone the wood material; restore prior emissive color and intensity on deselection. Selection is not correctness."
+    },
+    "correct": {
+      "emissive": "#279E52",
+      "emissiveIntensity": 0.25,
+      "cue": "A Perfect Fit, checkmark, and matching lengths"
+    },
+    "incorrect": {
+      "emissive": "#CD3023",
+      "emissiveIntensity": 0.18,
+      "cue": "Too Short or Too Long and measured difference"
+    },
+    "shortGhost": {
+      "color": "#ED6055",
+      "transparent": true,
+      "opacity": 0.48,
+      "depthWrite": false,
+      "cue": "Missing wood beyond the actual endpoint"
+    },
+    "longOverlay": {
+      "color": "#E94C41",
+      "transparent": true,
+      "opacity": 0.49,
+      "depthWrite": false,
+      "cue": "Extra wood beyond the target endpoint"
+    },
+    "targetCut": {
+      "color": "#B84236",
+      "cue": "Solid line at the target cut for a long piece"
+    },
+    "targetOutline": {
+      "color": "#587867",
+      "type": "LineBasicMaterial",
+      "transparent": true,
+      "opacity": 0.72
+    },
+    "dimensions": {
+      "target": "#4B6D58",
+      "neutral": "#486679",
+      "correct": "#4A8857",
+      "incorrect": "#B34E41"
+    },
+    "neutral": {
+      "emissive": "#000000",
+      "emissiveIntensity": 1,
+      "cue": "Your Cut Piece; no target comparison. Three.js defaults to intensity 1 with black emissive, so there is no emitted color."
+    },
+    "checkmarkAnimation": {
+      "durationSeconds": 0.45,
+      "easing": "ease-out",
+      "scaleFrom": 0.4,
+      "scaleTo": 1,
+      "opacityFrom": 0,
+      "opacityTo": 1,
+      "reducedMotion": "No animation"
+    },
+    "timing": "Correctness colors appear only after a committed cut; inspection holds until acknowledgement. The asset demo shows static post-cut examples."
   },
-  "renderer":{"outputColorSpace":"SRGBColorSpace","toneMapping":"ACESFilmicToneMapping","toneMappingExposure":1.12,"shadowMap":"PCFSoftShadowMap"},
-  "lighting":{"hemisphere":{"sky":"#FFF9DF","ground":"#829D78","intensity":2.25},"sun":{"color":"#FFEFC8","intensity":3.3,"position":[-6,12,8]},"fill":{"color":"#D7F2E7","intensity":0.7,"position":[9,7,-6]}},
-  "typography":{"originalStack":["Comic Sans MS","Comic Sans","cursive"],"bundledFonts":[]}
+  "renderer": {
+    "outputColorSpace": "SRGBColorSpace",
+    "toneMapping": "ACESFilmicToneMapping",
+    "toneMappingExposure": 1.12,
+    "shadowMap": "PCFSoftShadowMap"
+  },
+  "lighting": {
+    "hemisphere": {
+      "sky": "#FFF9DF",
+      "ground": "#829D78",
+      "intensity": 2.25
+    },
+    "sun": {
+      "color": "#FFEFC8",
+      "intensity": 3.3,
+      "position": [
+        -6,
+        12,
+        8
+      ]
+    },
+    "fill": {
+      "color": "#D7F2E7",
+      "intensity": 0.7,
+      "position": [
+        9,
+        7,
+        -6
+      ]
+    }
+  },
+  "typography": {
+    "originalStack": [
+      "Comic Sans MS",
+      "Comic Sans",
+      "cursive"
+    ],
+    "bundledFonts": []
+  }
 }

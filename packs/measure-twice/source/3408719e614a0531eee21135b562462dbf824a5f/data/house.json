@@ -1,0 +1,32 @@
+{
+  "name": "First House",
+  "unit": "sixteenths of an inch",
+  "stockLength": 48,
+  "stockProfileInches": {"thickness": 0.11, "width": 0.315},
+  "worldUnitsPerInch": 2,
+  "families": [
+    {"id":"uprights-and-rafters","title":"Uprights and Rafters","length":20,"placements":[
+      {"from":[-16,0,-8],"to":[-16,20,-8]},
+      {"from":[16,0,-8],"to":[16,20,-8]},
+      {"from":[-16,0,8],"to":[-16,20,8]},
+      {"from":[16,0,8],"to":[16,20,8]},
+      {"from":[-16,20,-8],"to":[0,32,-8]},
+      {"from":[16,20,-8],"to":[0,32,-8]},
+      {"from":[-16,20,8],"to":[0,32,8]},
+      {"from":[16,20,8],"to":[0,32,8]}
+    ]},
+    {"id":"front-and-back-rails","title":"Front and Back Rails","length":32,"placements":[
+      {"from":[-16,0,-8],"to":[16,0,-8]},
+      {"from":[-16,0,8],"to":[16,0,8]},
+      {"from":[-16,20,-8],"to":[16,20,-8]},
+      {"from":[-16,20,8],"to":[16,20,8]}
+    ]},
+    {"id":"side-rails-and-ridge","title":"Side Rails and Ridge","length":16,"placements":[
+      {"from":[-16,0,-8],"to":[-16,0,8]},
+      {"from":[16,0,-8],"to":[16,0,8]},
+      {"from":[-16,20,-8],"to":[-16,20,8]},
+      {"from":[16,20,-8],"to":[16,20,8]},
+      {"from":[0,32,-8],"to":[0,32,8]}
+    ]}
+  ]
+}
