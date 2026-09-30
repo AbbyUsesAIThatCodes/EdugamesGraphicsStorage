@@ -1,0 +1,12 @@
+{
+  "repository":"AbbyUsesAIThatCodes/MeasureTwice",
+  "sharedCatalogWrites":false,
+  "baseline":{"source":"docs/mockups/predict-cut-inspect/source.fragment.html","commit":"e67bf168a54feaa291f8f33009f23fb46138af48","sha256":"dc9a6aa15a42497c54bb52d3fc6d72d5fa6a358904ff7950dd1c86d1954ad992","attribution":"Teacher-approved MeasureTwice procedural workshop; no new repository-wide license inferred."},
+  "reusableCandidates":[
+    {"name":"Sunny Woodshop","source":"src/workshop.js","type":"Procedural Three.js Geometry","status":"Recovered and Adapted Existing MeasureTwice Asset","parts":["wood grain canvas texture","workbench","saw and guard","plant","tool cup","workshop walls and window"]},
+    {"name":"Exact Timber House","source":"data/house.json","type":"Parameterized Geometry Schedule","status":"New Review Asset","notes":"17 constant-profile pieces, 3 normalized lengths; parent may consolidate in EdugamesGraphicsStorage after review."},
+    {"name":"Wood Comparison Rack","source":"src/app.js:comparisonRack; src/model.js:comparisonPlacement","type":"Procedural Three.js Geometry","status":"New Review Asset","notes":"Aligned starts; 0.63-world-unit wood width plus a 0.09 gap. Eight pieces per raised layer. Uses the recovered workshop wood materials."}
+  ],
+  "externalAssets":[{"name":"Three.js","version":"0.180.0","license":"MIT","licenseInBuild":"vendor/three-LICENSE.txt"}],
+  "sharedStorageReviewed":"packs/levers-load-effort-distance/provenance.json; existing textures and models have upstream attribution. The accepted MeasureTwice workshop is retained to avoid replacing the approved reference. No EES/DM private course assets copied."
+}

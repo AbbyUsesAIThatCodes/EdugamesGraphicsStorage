@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MeasureTwice Graphics Review</title>
+<link rel="icon" href="data:,">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#e7efd9;color:#23473b;font-family:"Comic Sans MS","Comic Sans",cursive}header{padding:14px 24px;background:#fffcee;border-bottom:2px solid #a9c19e}h1{margin:0 0 5px;font-size:24px}p{margin:5px 0;font-size:14px}nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}button{font:inherit;font-size:13px;border:1px solid #5a8166;border-radius:7px;background:#fffdf3;color:#23473b;padding:8px 12px;cursor:pointer}button[aria-pressed=true]{background:#28564b;color:white}button:focus-visible{outline:3px solid #d36d13;outline-offset:3px}#stage{height:calc(100vh - 267px);min-height:360px;position:relative;overflow:hidden}canvas{display:block;touch-action:none}#caption{position:absolute;top:14px;left:22px;max-width:360px;padding:12px 16px;background:#fffceef0;border:1px solid #a9c19e;border-radius:12px;pointer-events:none}#caption strong{font-size:18px}#caption p{line-height:1.5}footer{padding:12px 24px;background:#fffcee;border-top:2px solid #a9c19e;font-size:11px;overflow-wrap:anywhere}#identity{user-select:all;margin-top:5px}#checkmark{display:inline-block;color:#279e52;font-size:22px;animation:celebrate .45s ease-out}@keyframes celebrate{from{scale:.4;opacity:0}to{scale:1;opacity:1}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}@media(max-width:1100px){header{padding:10px 16px}h1{font-size:21px}nav{gap:5px}button{padding:6px 9px}#stage{height:calc(100vh - 275px)}#caption{left:14px;max-width:300px}}[hidden]{display:none!important}
+</style>
+<header>
+  <h1>MeasureTwice Graphics Review</h1>
+  <p>Sunny Woodshop, exact timber pieces, and post-cut feedback. Choose an example; drag to rotate the workshop.</p>
+  <nav aria-label="Asset Examples">
+    <button data-view="workshop" aria-pressed="true">Workshop</button>
+    <button data-view="house" aria-pressed="false">17-Piece House</button>
+    <button data-view="rack" aria-pressed="false">Comparison Rack</button>
+    <button data-view="neutral" aria-pressed="false">Neutral Piece</button>
+    <button data-view="short" aria-pressed="false">Too Short</button>
+    <button data-view="long" aria-pressed="false">Too Long</button>
+    <button data-view="correct" aria-pressed="false">Correct Fit</button>
+    <button data-view="selected" aria-pressed="false">Selected Piece</button>
+  </nav>
+</header>
+<main id="stage"><div id="caption" role="status"><strong id="title">Loading Graphics</strong><p id="detail"></p><span id="checkmark" hidden aria-label="Correct fit">✓</span></div></main>
+<footer><div>Live Source Asset Demo · Static examples adapted from the preserved game graphics; this is not a game build or a new mesh export.</div><div id="identity">Loading source identity…</div></footer>
+<script type="importmap">{"imports":{"../source/3408719e614a0531eee21135b562462dbf824a5f/vendor/three.module.js":"../../../node_modules/three/build/three.module.js"}}</script>
+<script type="module" src="demo.mjs"></script>
+</html>

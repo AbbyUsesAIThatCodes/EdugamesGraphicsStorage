@@ -45,15 +45,15 @@ async function files(dir) {
   const result = [];
   for (const entry of await readdir(dir, { withFileTypes: true })) {
     if (entry.name === '.git' || entry.name === 'node_modules') continue;
-    const p = path.join(dir, entry.name);
+    const p = path.posix.join(dir, entry.name);
     result.push(...(entry.isDirectory() ? await files(p) : [p]));
   }
   return result;
 }
-const packFiles = (await files(pack)).map(p => path.relative(pack, p)).filter(p => p !== 'checksums.sha256').sort();
+const packFiles = (await files(pack)).map(p => path.posix.relative(pack, p)).filter(p => p !== 'checksums.sha256').sort();
 assert.deepEqual(inventory.map(line => line.slice(66)).sort(), packFiles, 'Inventory must cover every pack file');
 // Authored catalog/docs links must resolve; archival upstream docs are unchanged.
-for (const file of (await files('.')).filter(p => p.endsWith('.md') && !p.includes('/source/') && !p.includes('/reference-screenshots/'))) {
+for (const file of (await files('.')).filter(p => p.endsWith('.md') && !/\/(source(?:-original|-current)?|reference-screenshots)\//.test(p))) {
   const text = await readFile(file, 'utf8');
   for (const match of text.matchAll(/\]\(([^)]+)\)/g)) {
     const target = match[1];

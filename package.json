@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "export:levers": "node scripts/export-levers.mjs",
-    "verify": "node scripts/verify.mjs"
+    "verify": "node scripts/verify.mjs && node scripts/verify-procedural.mjs"
   },
   "devDependencies": {
     "three": "0.180.0",

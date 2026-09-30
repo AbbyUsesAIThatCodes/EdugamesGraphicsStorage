@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "codename": "Predict Cut Inspect",
+  "slug": "Predict-Cut-Inspect",
+  "status": "development-review",
+  "codenameStatus": "Provisional Review Name From the Approved Study; Awaiting Teacher Acceptance",
+  "compatibility": "Development build. Session records are local to this page; no production save migration contract yet.",
+  "id": "0.1.0_Predict-Cut-Inspect_pr-14_build-001_20260930T031537Z_g0aa38965fd78_web",
+  "scope": "pr-14",
+  "pr": 14,
+  "ordinal": 1,
+  "builtAt": "2026-09-30T03:15:37.912Z",
+  "sourceRevision": "0aa38965fd781fa4cf3d66b404aa0ccf379e466c",
+  "dirty": false,
+  "fingerprint": "ee8e994154bf1986ca2e5d8f07f4db9716f825fcf6c10593d5e0d72ac353ca01",
+  "target": "web",
+  "allocator": "Jess_PC/MeasureTwice-build-ledger"
+}
