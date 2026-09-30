@@ -18,6 +18,6 @@ for(const name of await readdir('packs')){
   const inventory=(await readFile(`${dir}/checksums.sha256`,'utf8')).trim().split('\n');
   for(const line of inventory){const m=/^([a-f0-9]{64})  (.+)$/.exec(line);assert(m,line);assert.equal(hash(await readFile(`${dir}/${m[2]}`)),m[1],m[2])}
   assert.deepEqual(inventory.map(l=>l.slice(66)).sort(),(await files(dir)).map(p=>path.posix.relative(dir,p)).filter(p=>p!=='checksums.sha256').sort(),`${name}: complete inventory`);
-  if(record.upstreamBuild){const b=record.upstreamBuild,bytes=await readFile(`${dir}/${b.manifest}`),manifest=JSON.parse(bytes);assert.equal(hash(bytes),b.sha256);assert.equal(bytes.length,b.bytes);assert.equal(manifest.id,b.id);assert.equal(manifest.sourceRevision,record.source.commit)}
+  if(record.upstreamBuild){const b=record.upstreamBuild,bytes=await readFile(`${dir}/${b.manifest}`),manifest=JSON.parse(bytes);assert.equal(hash(bytes),b.sha256);assert.equal(bytes.length,b.bytes);assert(['id','fullId'].includes(b.idField||'id'));assert.equal(manifest[b.idField||'id'],b.id);assert.equal(manifest.sourceRevision,record.source.commit)}
   console.log(`Verified ${name}: ${record.snapshotFiles.length} preserved source files and ${inventory.length} inventory entries.`);
 }
