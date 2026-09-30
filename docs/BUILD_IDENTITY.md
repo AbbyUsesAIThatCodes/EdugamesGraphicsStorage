@@ -33,3 +33,17 @@ GLB round-trip validation reloads each file through Three.js and compares bounds
 mesh/line/texture counts, and vertex counts. `npm run verify` checks stored
 identities, source hashes, file inventories, GLB structure, and catalog links.
 Opening, copying, or verifying an existing export preserves its identity.
+
+## MeasureTwice Source Demonstration
+
+`packs/measure-twice/source/<full-commit>/` preserves immutable upstream graphics
+sources. `provenance.json` records the source commit and links the byte-preserved
+upstream build manifest under `history/<upstream-build-id>/`. These references
+retain the upstream identity; the storage repository does not allocate a new
+game ordinal or relabel that artifact.
+
+`packs/measure-twice/demo/` is an unbundled live source demonstration. Its visible
+footer and console identify that status, exact source snapshot, and full upstream
+build reference. It is not a new game build, GLB export, or deployment. Catalog,
+palette, and README links identify the same snapshot. A future actual export
+must allocate its own identity under the conventions above.

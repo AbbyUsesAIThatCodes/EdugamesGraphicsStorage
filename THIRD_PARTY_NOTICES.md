@@ -17,3 +17,9 @@ and visual foundation also descend from ThreeKindsOfLevers, as recorded upstream
 The source game has no repository-wide LICENSE file at the recorded revision.
 This import preserves that status and does not introduce or infer a new license
 for the original game graphics.
+
+The [MeasureTwice pack](packs/measure-twice/README.md) preserves its approved
+workshop ancestor and adapted procedural graphics with [exact source records](packs/measure-twice/provenance.json).
+Its original-art license is also unspecified. Three.js `0.180.0` is installed
+as a development dependency for the local demonstration; its [MIT license](packs/measure-twice/licenses/three-LICENSE.txt)
+is retained. No additional font binaries or private classroom material are copied.
