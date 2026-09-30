@@ -30,3 +30,9 @@ exact ancestry in its [provenance](packs/three-kinds-of-levers/provenance.json).
 It uses Three.js `0.180.0` under MIT and retains the original Comic Neue OFL notice.
 No font binaries or private reference photographs are redistributed; the original
 art's license remains unspecified.
+
+The [EasyAsPie pack](packs/easy-as-pie/README.md) preserves its original procedural
+bakery, pastry and feedback generators. Its original-art license remains
+unspecified. The demo pins Three.js `0.186.1` separately under its own dependency
+manifest and preserves the [MIT license](packs/easy-as-pie/licenses/three-LICENSE.txt).
+Comic Sans is requested from the device; no font or Concept B image is distributed.

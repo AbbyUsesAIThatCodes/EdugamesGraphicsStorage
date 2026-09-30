@@ -58,3 +58,16 @@ and dirty flags without reinterpretation. `demo/` is an unbundled local source
 demo, with source and upstream build reference in its footer. The catalog,
 palette and source-keyed screenshots identify the same revision. It allocates no
 game build ordinal and makes no portable export or deployment claim.
+
+## EasyAsPie Source Demonstration
+
+`packs/easy-as-pie/source/<full-commit>/` contains exact original generator and
+geometry-test Git blobs. The evidence checkpoint's JSON handoff pins a separate
+runtime source; both are recorded in `provenance.json`. Its `upstreamBuild` retains
+the original `id` and `sha` fields from `history/<upstream-build-id>/build.json`.
+Historical source/build manifests and source-keyed screenshots remain unchanged.
+The demo, palette, README and catalog identify the current source and upstream
+build reference without allocating a new ordinal. `demo/` installs Three.js
+0.186.1 locally and does not alter older packs' engines. It is an unbundled source
+asset demo, not a new game build, portable GLB export or deployment. Teacher
+visual acceptance remains pending.

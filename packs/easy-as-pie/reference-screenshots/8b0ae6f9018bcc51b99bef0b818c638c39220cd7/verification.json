@@ -1,0 +1,484 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-09-30T04:13:37.265Z",
+  "sourceCommit": "8b0ae6f9018bcc51b99bef0b818c638c39220cd7",
+  "upstreamBuild": "0.3.1_Unassigned_pr-22_build-002_20260930T035728Z_g8b0ae6f9018b_web",
+  "browser": "154.0.8037.92",
+  "three": "0.186.1",
+  "kind": "Local Source Asset Validation; Teacher Visual Acceptance Pending",
+  "checks": [
+    "Every archived Git blob hash",
+    "Four serving configurations including sixteenths and zero/whole",
+    "Matching pie slices and bar tiles/selection counts",
+    "Drawer travels 1.85 units",
+    "Actual serving/focus/correct/incorrect materials and intensity",
+    "Knife appears during physical cut and is removed on completion",
+    "Cut and Regroup preserve exact fraction and return to original state",
+    "Reduced motion completes without leftover knife",
+    "320x568 horizontal fit and source/build identity",
+    "No external requests or browser errors"
+  ],
+  "snapshots": [
+    {
+      "preset": "halves",
+      "pies": [
+        {
+          "serving": {
+            "n": 1,
+            "d": 2
+          },
+          "slices": 2,
+          "outline": "7536ed",
+          "focus": false,
+          "fruit": [
+            {
+              "slice": 1,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 2,
+              "emissive": "7536ed",
+              "intensity": 0
+            }
+          ],
+          "knife": false
+        },
+        {
+          "serving": {
+            "n": 2,
+            "d": 4
+          },
+          "slices": 4,
+          "outline": "7536ed",
+          "focus": false,
+          "fruit": [
+            {
+              "slice": 1,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 2,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 3,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 4,
+              "emissive": "7536ed",
+              "intensity": 0
+            }
+          ],
+          "knife": false
+        }
+      ],
+      "drawerZ": 0,
+      "bars": [
+        {
+          "serving": {
+            "n": 1,
+            "d": 2
+          },
+          "pieces": 2,
+          "selected": 1
+        },
+        {
+          "serving": {
+            "n": 2,
+            "d": 4
+          },
+          "pieces": 4,
+          "selected": 2
+        }
+      ]
+    },
+    {
+      "preset": "quarters",
+      "pies": [
+        {
+          "serving": {
+            "n": 3,
+            "d": 4
+          },
+          "slices": 4,
+          "outline": "7536ed",
+          "focus": false,
+          "fruit": [
+            {
+              "slice": 1,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 2,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 3,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 4,
+              "emissive": "7536ed",
+              "intensity": 0
+            }
+          ],
+          "knife": false
+        },
+        {
+          "serving": {
+            "n": 6,
+            "d": 8
+          },
+          "slices": 8,
+          "outline": "7536ed",
+          "focus": false,
+          "fruit": [
+            {
+              "slice": 1,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 2,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 3,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 4,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 5,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 6,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 7,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 8,
+              "emissive": "7536ed",
+              "intensity": 0
+            }
+          ],
+          "knife": false
+        }
+      ],
+      "drawerZ": 0,
+      "bars": [
+        {
+          "serving": {
+            "n": 3,
+            "d": 4
+          },
+          "pieces": 4,
+          "selected": 3
+        },
+        {
+          "serving": {
+            "n": 6,
+            "d": 8
+          },
+          "pieces": 8,
+          "selected": 6
+        }
+      ]
+    },
+    {
+      "preset": "sixteenths",
+      "pies": [
+        {
+          "serving": {
+            "n": 8,
+            "d": 16
+          },
+          "slices": 16,
+          "outline": "7536ed",
+          "focus": false,
+          "fruit": [
+            {
+              "slice": 1,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 2,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 3,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 4,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 5,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 6,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 7,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 8,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 9,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 10,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 11,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 12,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 13,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 14,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 15,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 16,
+              "emissive": "7536ed",
+              "intensity": 0
+            }
+          ],
+          "knife": false
+        },
+        {
+          "serving": {
+            "n": 4,
+            "d": 8
+          },
+          "slices": 8,
+          "outline": "7536ed",
+          "focus": false,
+          "fruit": [
+            {
+              "slice": 1,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 2,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 3,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 4,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 5,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 6,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 7,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 8,
+              "emissive": "7536ed",
+              "intensity": 0
+            }
+          ],
+          "knife": false
+        }
+      ],
+      "drawerZ": 0,
+      "bars": [
+        {
+          "serving": {
+            "n": 8,
+            "d": 16
+          },
+          "pieces": 16,
+          "selected": 8
+        },
+        {
+          "serving": {
+            "n": 4,
+            "d": 8
+          },
+          "pieces": 8,
+          "selected": 4
+        }
+      ]
+    },
+    {
+      "preset": "zero",
+      "pies": [
+        {
+          "serving": {
+            "n": 0,
+            "d": 4
+          },
+          "slices": 4,
+          "focus": false,
+          "fruit": [
+            {
+              "slice": 1,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 2,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 3,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 4,
+              "emissive": "7536ed",
+              "intensity": 0
+            }
+          ],
+          "knife": false
+        },
+        {
+          "serving": {
+            "n": 4,
+            "d": 4
+          },
+          "slices": 4,
+          "outline": "7536ed",
+          "focus": false,
+          "fruit": [
+            {
+              "slice": 1,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 2,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 3,
+              "emissive": "7536ed",
+              "intensity": 0
+            },
+            {
+              "slice": 4,
+              "emissive": "7536ed",
+              "intensity": 0
+            }
+          ],
+          "knife": false
+        }
+      ],
+      "drawerZ": 0,
+      "bars": [
+        {
+          "serving": {
+            "n": 0,
+            "d": 4
+          },
+          "pieces": 4,
+          "selected": 0
+        },
+        {
+          "serving": {
+            "n": 4,
+            "d": 4
+          },
+          "pieces": 4,
+          "selected": 4
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "inputs": [
+    {
+      "path": "demo/index.html",
+      "sha256": "3cf1b8399f4f4330c84ce08230084dfad1a0119594a71a50d2baf4d47c15ee71"
+    },
+    {
+      "path": "demo/demo.mjs",
+      "sha256": "f22d5714f0157e08641fc97f395a11e8a51f9d4ab0dbd2868023643b7c59adaa"
+    },
+    {
+      "path": "palette.json",
+      "sha256": "1a36c6f2c12cd1e5dc4ebf7306f8d67997c467aa89057a55a14851e613ea33ce"
+    },
+    {
+      "path": "provenance.json",
+      "sha256": "ef4c1c5b5962624d9df98f3cf4d487f18347979a43bb9cef89ff3bc501c7f369"
+    }
+  ]
+}
