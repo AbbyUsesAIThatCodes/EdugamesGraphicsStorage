@@ -1,0 +1,377 @@
+{
+  "source": {
+    "repository": "https://github.com/AbbyUsesAIThatCodes/EasyAsPie",
+    "commit": "8b0ae6f9018bcc51b99bef0b818c638c39220cd7",
+    "version": "0.3.1",
+    "codename": null,
+    "status": "Final Unmerged Review Source; Teacher Visual Acceptance Pending",
+    "pullRequest": "https://github.com/AbbyUsesAIThatCodes/EasyAsPie/pull/22"
+  },
+  "upstreamBuild": {
+    "id": "0.3.1_Unassigned_pr-22_build-002_20260930T035728Z_g8b0ae6f9018b_web",
+    "manifest": "history/0.3.1_Unassigned_pr-22_build-002_20260930T035728Z_g8b0ae6f9018b_web/build.json",
+    "sha256": "f1866d3d2ddd5b999004a98db23f8c590a619fea58be6fb0644806c5b0ce299e",
+    "bytes": 542,
+    "sourceField": "sha",
+    "status": "Final Tested Upstream Build; Not A Storage Export"
+  },
+  "manifestCheckpoint": "b729a58ec8c318e0a8fc9f42731fb65b65ea55db",
+  "history": [
+    {
+      "commit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "buildId": "0.3.0_Unassigned_pr-22_build-001_20260930T033257Z_ge3c0846d2599_web",
+      "manifest": "history/0.3.0_Unassigned_pr-22_build-001_20260930T033257Z_ge3c0846d2599_web/build.json",
+      "sha256": "c512327b3fde9105e128ba5b51e6bc1d48459c87d7f96cffbf095677fe76b623",
+      "storageRevision": "4e18f71377665b93f23dc3cf8fdd3ca649b2ab51",
+      "verification": "reference-screenshots/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/verification.json",
+      "reason": "Prior validated source retained unchanged; superseded by narrower berry-center clearance at sixteenths plus assessment-state corrections."
+    }
+  ],
+  "snapshotFiles": [
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "src/bakery-geometry.js",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/src/bakery-geometry.js",
+      "sha256": "754c71fe060d694a5a39b3f97fbe1537e56229f42be0a17accb7dac07c4c2eab",
+      "bytes": 6901
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "src/bakery-room.js",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/src/bakery-room.js",
+      "sha256": "1c5e07ff7cbbe7c7acbeac24d409830984bd03a41477ff9c9c5a17e0c5623b3d",
+      "bytes": 5501
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "src/pies.js",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/src/pies.js",
+      "sha256": "7ce39f7cac98e81f2417b96de687b6e7768625e692e9071dd0e171af540b9008",
+      "bytes": 18256
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "src/slice-motion.js",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/src/slice-motion.js",
+      "sha256": "bb849091fd637c74668b10bb84d76d7964cc0a43b43e7b115675f1bf4c3d9a6e",
+      "bytes": 2530
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "package.json",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/package.json",
+      "sha256": "00ec1921cb03823f84eed12f07e62e69e5872f2dc841feba7771088a1e866b03",
+      "bytes": 488
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "package-lock.json",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/package-lock.json",
+      "sha256": "ba82abbbb876516996ebb7e03865b2ca8cd3fbe36b6a0dfae8b4848a63ed0a59",
+      "bytes": 25360
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "docs/ASSET_HANDOFF.md",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/docs/ASSET_HANDOFF.md",
+      "sha256": "988c1427e010ca8eb0519d7005d901ff816c44acdf5371c7aaa5228819da5c7e",
+      "bytes": 2139
+    },
+    {
+      "sourceCommit": "4449fb37d92e7a09b0c1f4ac51e1682e82b41210",
+      "sourcePath": "docs/ASSET_HANDOFF.json",
+      "path": "source/4449fb37d92e7a09b0c1f4ac51e1682e82b41210/docs/ASSET_HANDOFF.json",
+      "sha256": "9a9db936c0b95454c476a2fdc65e520634996456cd8282d8112d02caf5786d39",
+      "bytes": 1202
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "tests/bars-geometry.test.js",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/tests/bars-geometry.test.js",
+      "sha256": "36a548a195508cecfe7fa7b022c1841801ec31a263f83e5d78ac01101db3ac4d",
+      "bytes": 1647
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "tests/closed-solids.test.js",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/tests/closed-solids.test.js",
+      "sha256": "d1cd0a4ac49eb9a8866df96c6a4a496aca33e007810f542158b94df9a095fe56",
+      "bytes": 2200
+    },
+    {
+      "sourceCommit": "e3c0846d25998babb027dd6cecd3e66ec3ebf7ab",
+      "sourcePath": "tests/selection-geometry.test.js",
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/tests/selection-geometry.test.js",
+      "sha256": "6b2169c51ac272bfff3989dbf412ea303544bcb1fcfe493b750ef45513a06fe2",
+      "bytes": 2636
+    },
+    {
+      "sourceCommit": "8b0ae6f9018bcc51b99bef0b818c638c39220cd7",
+      "sourcePath": "src/bakery-geometry.js",
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/src/bakery-geometry.js",
+      "sha256": "754c71fe060d694a5a39b3f97fbe1537e56229f42be0a17accb7dac07c4c2eab",
+      "bytes": 6901
+    },
+    {
+      "sourceCommit": "8b0ae6f9018bcc51b99bef0b818c638c39220cd7",
+      "sourcePath": "src/bakery-room.js",
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/src/bakery-room.js",
+      "sha256": "1c5e07ff7cbbe7c7acbeac24d409830984bd03a41477ff9c9c5a17e0c5623b3d",
+      "bytes": 5501
+    },
+    {
+      "sourceCommit": "8b0ae6f9018bcc51b99bef0b818c638c39220cd7",
+      "sourcePath": "src/pies.js",
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/src/pies.js",
+      "sha256": "7f3006c4c1bdc7097ee6cb0f5713ddf26c6472ffc3adeb4d87cd7563864fe4c8",
+      "bytes": 18487
+    },
+    {
+      "sourceCommit": "8b0ae6f9018bcc51b99bef0b818c638c39220cd7",
+      "sourcePath": "src/slice-motion.js",
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/src/slice-motion.js",
+      "sha256": "bb849091fd637c74668b10bb84d76d7964cc0a43b43e7b115675f1bf4c3d9a6e",
+      "bytes": 2530
+    },
+    {
+      "sourceCommit": "8b0ae6f9018bcc51b99bef0b818c638c39220cd7",
+      "sourcePath": "package.json",
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/package.json",
+      "sha256": "f4483548dc9b98909c4e5063487e95f9ed8da65b6b640523fc6e5227ff5b8912",
+      "bytes": 488
+    },
+    {
+      "sourceCommit": "8b0ae6f9018bcc51b99bef0b818c638c39220cd7",
+      "sourcePath": "package-lock.json",
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/package-lock.json",
+      "sha256": "124942804dc59d4ebc688171afc81c69c26d111ed0bf642fcbb93bf0da6ce67f",
+      "bytes": 25360
+    },
+    {
+      "sourceCommit": "8b0ae6f9018bcc51b99bef0b818c638c39220cd7",
+      "sourcePath": "docs/ASSET_HANDOFF.md",
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/docs/ASSET_HANDOFF.md",
+      "sha256": "e62386ffb74e4836c9e5044a15b8dff32e676636438efdac92f8eecc45b067db",
+      "bytes": 2448
+    },
+    {
+      "sourceCommit": "8b0ae6f9018bcc51b99bef0b818c638c39220cd7",
+      "sourcePath": "tests/bars-geometry.test.js",
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/tests/bars-geometry.test.js",
+      "sha256": "36a548a195508cecfe7fa7b022c1841801ec31a263f83e5d78ac01101db3ac4d",
+      "bytes": 1647
+    },
+    {
+      "sourceCommit": "8b0ae6f9018bcc51b99bef0b818c638c39220cd7",
+      "sourcePath": "tests/closed-solids.test.js",
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/tests/closed-solids.test.js",
+      "sha256": "d1cd0a4ac49eb9a8866df96c6a4a496aca33e007810f542158b94df9a095fe56",
+      "bytes": 2200
+    },
+    {
+      "sourceCommit": "8b0ae6f9018bcc51b99bef0b818c638c39220cd7",
+      "sourcePath": "tests/selection-geometry.test.js",
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/tests/selection-geometry.test.js",
+      "sha256": "6b2169c51ac272bfff3989dbf412ea303544bcb1fcfe493b750ef45513a06fe2",
+      "bytes": 2636
+    },
+    {
+      "sourceCommit": "b729a58ec8c318e0a8fc9f42731fb65b65ea55db",
+      "sourcePath": "docs/ASSET_HANDOFF.json",
+      "path": "source/b729a58ec8c318e0a8fc9f42731fb65b65ea55db/docs/ASSET_HANDOFF.json",
+      "sha256": "27965b3052977f1c728bb2038a4d64aaca1cc5da04251f266128138f3db2cb84",
+      "bytes": 1413
+    }
+  ],
+  "dependencyAssets": [
+    {
+      "path": "licenses/three-LICENSE.txt",
+      "package": "three",
+      "version": "0.186.1",
+      "packagePath": "LICENSE",
+      "license": "MIT",
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "bytes": 1081
+    }
+  ],
+  "licenseStatus": "Original EasyAsPie graphics; no repository-wide license supplied or inferred. Three.js MIT. Comic Sans is a device font, not redistributed.",
+  "duplicationReview": [
+    {
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/src/bakery-geometry.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Original Generator Closure; No Duplicate Generic Pack"
+    },
+    {
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/src/bakery-room.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Original Generator Closure; No Duplicate Generic Pack"
+    },
+    {
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/src/pies.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Original Generator Closure; No Duplicate Generic Pack"
+    },
+    {
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/src/slice-motion.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Original Generator Closure; No Duplicate Generic Pack"
+    },
+    {
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/package.json",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Original Generator Closure; No Duplicate Generic Pack"
+    },
+    {
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/package-lock.json",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Original Generator Closure; No Duplicate Generic Pack"
+    },
+    {
+      "path": "source/e3c0846d25998babb027dd6cecd3e66ec3ebf7ab/docs/ASSET_HANDOFF.md",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Original Generator Closure; No Duplicate Generic Pack"
+    },
+    {
+      "path": "source/4449fb37d92e7a09b0c1f4ac51e1682e82b41210/docs/ASSET_HANDOFF.json",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Original Generator Closure; No Duplicate Generic Pack"
+    },
+    {
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/src/bakery-geometry.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Pinned Generator/Test Closure And Immutable Prior History"
+    },
+    {
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/src/bakery-room.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Pinned Generator/Test Closure And Immutable Prior History"
+    },
+    {
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/src/pies.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Pinned Generator/Test Closure And Immutable Prior History"
+    },
+    {
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/src/slice-motion.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Pinned Generator/Test Closure And Immutable Prior History"
+    },
+    {
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/package.json",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Pinned Generator/Test Closure And Immutable Prior History"
+    },
+    {
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/package-lock.json",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Pinned Generator/Test Closure And Immutable Prior History"
+    },
+    {
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/docs/ASSET_HANDOFF.md",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Pinned Generator/Test Closure And Immutable Prior History"
+    },
+    {
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/tests/bars-geometry.test.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Pinned Generator/Test Closure And Immutable Prior History"
+    },
+    {
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/tests/closed-solids.test.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Pinned Generator/Test Closure And Immutable Prior History"
+    },
+    {
+      "path": "source/8b0ae6f9018bcc51b99bef0b818c638c39220cd7/tests/selection-geometry.test.js",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Pinned Generator/Test Closure And Immutable Prior History"
+    },
+    {
+      "path": "source/b729a58ec8c318e0a8fc9f42731fb65b65ea55db/docs/ASSET_HANDOFF.json",
+      "matchingStoredFiles": [],
+      "decision": "Preserve Final Pinned Generator/Test Closure And Immutable Prior History"
+    }
+  ],
+  "exclusions": [
+    "Private curriculum documents, student data, credentials and deployment configuration",
+    "Gameplay state, lesson prose and full-game distribution",
+    "Concept art bitmap and font binaries"
+  ],
+  "acceptance": {
+    "teacherVisualAcceptance": "Pending",
+    "visualLimit": "Implementation does not claim pixel equivalence with the richer Concept B textures and lighting.",
+    "upstreamTests": "Parent reports 24 tests and full interaction/browser matrices passed for final build 002; independent asset geometry and browser results are recorded separately."
+  },
+  "demonstration": {
+    "path": "demo/index.html",
+    "kind": "Live Source Asset Demo; Not A New Game Build Or GLB Export",
+    "sourceSnapshot": "8b0ae6f9018bcc51b99bef0b818c638c39220cd7",
+    "dependencies": {
+      "three": "0.186.1"
+    },
+    "dependencyInstall": "npm ci --prefix packs/easy-as-pie/demo",
+    "limitations": "Local controls adapt the original renderer. Selection/feedback is paired with text; teacher acceptance remains pending."
+  },
+  "revisionComparison": [
+    {
+      "path": "src/bakery-geometry.js",
+      "before": "754c71fe060d694a5a39b3f97fbe1537e56229f42be0a17accb7dac07c4c2eab",
+      "after": "754c71fe060d694a5a39b3f97fbe1537e56229f42be0a17accb7dac07c4c2eab",
+      "unchanged": true
+    },
+    {
+      "path": "src/bakery-room.js",
+      "before": "1c5e07ff7cbbe7c7acbeac24d409830984bd03a41477ff9c9c5a17e0c5623b3d",
+      "after": "1c5e07ff7cbbe7c7acbeac24d409830984bd03a41477ff9c9c5a17e0c5623b3d",
+      "unchanged": true
+    },
+    {
+      "path": "src/pies.js",
+      "before": "7ce39f7cac98e81f2417b96de687b6e7768625e692e9071dd0e171af540b9008",
+      "after": "7f3006c4c1bdc7097ee6cb0f5713ddf26c6472ffc3adeb4d87cd7563864fe4c8",
+      "unchanged": false
+    },
+    {
+      "path": "src/slice-motion.js",
+      "before": "bb849091fd637c74668b10bb84d76d7964cc0a43b43e7b115675f1bf4c3d9a6e",
+      "after": "bb849091fd637c74668b10bb84d76d7964cc0a43b43e7b115675f1bf4c3d9a6e",
+      "unchanged": true
+    },
+    {
+      "path": "package.json",
+      "before": "00ec1921cb03823f84eed12f07e62e69e5872f2dc841feba7771088a1e866b03",
+      "after": "f4483548dc9b98909c4e5063487e95f9ed8da65b6b640523fc6e5227ff5b8912",
+      "unchanged": false
+    },
+    {
+      "path": "package-lock.json",
+      "before": "ba82abbbb876516996ebb7e03865b2ca8cd3fbe36b6a0dfae8b4848a63ed0a59",
+      "after": "124942804dc59d4ebc688171afc81c69c26d111ed0bf642fcbb93bf0da6ce67f",
+      "unchanged": false
+    },
+    {
+      "path": "docs/ASSET_HANDOFF.md",
+      "before": "988c1427e010ca8eb0519d7005d901ff816c44acdf5371c7aaa5228819da5c7e",
+      "after": "e62386ffb74e4836c9e5044a15b8dff32e676636438efdac92f8eecc45b067db",
+      "unchanged": false
+    },
+    {
+      "path": "tests/bars-geometry.test.js",
+      "before": "36a548a195508cecfe7fa7b022c1841801ec31a263f83e5d78ac01101db3ac4d",
+      "after": "36a548a195508cecfe7fa7b022c1841801ec31a263f83e5d78ac01101db3ac4d",
+      "unchanged": true
+    },
+    {
+      "path": "tests/closed-solids.test.js",
+      "before": "d1cd0a4ac49eb9a8866df96c6a4a496aca33e007810f542158b94df9a095fe56",
+      "after": "d1cd0a4ac49eb9a8866df96c6a4a496aca33e007810f542158b94df9a095fe56",
+      "unchanged": true
+    },
+    {
+      "path": "tests/selection-geometry.test.js",
+      "before": "6b2169c51ac272bfff3989dbf412ea303544bcb1fcfe493b750ef45513a06fe2",
+      "after": "6b2169c51ac272bfff3989dbf412ea303544bcb1fcfe493b750ef45513a06fe2",
+      "unchanged": true
+    }
+  ]
+}
