@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "title": "VEX IQ Guide Provenance",
+  "checkedUtc": "2026-10-03",
+  "snapshotFiles": [],
+  "snapshotFilesNote": "No original Git source files are included; sources are official manufacturer downloads.",
+  "document": "exports/iq-reference-2026-10-03-0c194ea1387a/VEX-IQ-Parts-Identification-And-Inventory-Guide.pdf",
+  "bytes": 11745063,
+  "sha256": "0c194ea1387a2d173ae9cc0205ab22767a61d95ec5f1b2c73e74e86d0dcbfb8c",
+  "pages": 117,
+  "referenceEntries": 509,
+  "cadBackedEntries": 490,
+  "officialImageDiagramEntries": 19,
+  "distinctRecordedSourcePartIds": 506,
+  "unresolvedUsbIdentity": 1,
+  "extraHubConfigurations": 2,
+  "posterReferences": 217,
+  "manufacturer": "VEX Robotics",
+  "sourceUrls": [
+    "https://link.vex.com/cad/STEP/VEX-IQ-All-Parts-STEP",
+    "https://link.vex.com/cad/STEP/VEX-IQ-All-Control-STEP",
+    "https://link.vex.com/docs/pdf/iq-gen-2-education-poster",
+    "https://content.vexrobotics.com/vexpro/pdf/228-7711-750-rev5-ol.pdf"
+  ],
+  "sourceNotes": "The PDF names supplemental official sources and all six identifier conflicts. All inventory quantities and bin fields remain blank.",
+  "geometryQualification": "491 raw STEP sources imported and rendered; 490 pass BRep validity. Earlier Controller 228-2530 has an invalid source BRep flag. One generic simulated cable is excluded from counted physical entries.",
+  "validation": "All 117 pages visually reviewed; all 509 identities and index page references checked. Final lossless rewrite preserves all 117 rendered pages and decoded JPEG payloads.",
+  "rawCadArchiveIncluded": false,
+  "repositoryWideNpmVerifyRun": false
+}
