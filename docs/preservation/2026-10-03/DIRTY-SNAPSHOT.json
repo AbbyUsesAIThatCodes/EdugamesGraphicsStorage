@@ -1,0 +1,144 @@
+{
+  "repository": "EdugamesGraphicsStorage",
+  "base": "25863f0f96832c509c0785f0a7a213d778e81569",
+  "sourceWorkspace": "2026-09-29/task-5/PR1-combined-final",
+  "branch": "preserve/jess-combined-stage-2026-10-03",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1513,
+      "sha256": "ac9290ef008750cbc3b184c1ffe5e8e1d14789c76a08d4d23a09174776981b47"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3372,
+      "sha256": "6ea35c33271071682021c1330f497abe09ab905018b60ff651d5198aaf3d443b"
+    },
+    {
+      "path": "STYLE_GUIDE.md",
+      "bytes": 2797,
+      "sha256": "83824fc4eaa856e87e2d703eeaf1130526152a4f83c706cf3186edbd4ddeb1d9"
+    },
+    {
+      "path": "docs/EDUGAMES-STANDARDS.md",
+      "bytes": 3510,
+      "sha256": "0d58298a2255e590cde38d3efa2a87ca4bd0a0f5f1d42c897cccb75a2985617f"
+    },
+    {
+      "path": "packs/multiview-mystery/CATALOG.md",
+      "bytes": 1435,
+      "sha256": "4cacfd3ea6581e9bd804e675a38c4f07444212ee7d6c62e63a46be201bd210b9"
+    },
+    {
+      "path": "packs/multiview-mystery/README.md",
+      "bytes": 1559,
+      "sha256": "ddad237f2ed2f228b0e8af89ebbc28ab2e5580c9ab327d087eb92bc295e3f8e3"
+    },
+    {
+      "path": "packs/multiview-mystery/checksums.sha256",
+      "bytes": 1908,
+      "sha256": "132c936174ef41c766be797759b50129442ec40263d8162a46377f787eb71bf9"
+    },
+    {
+      "path": "packs/multiview-mystery/palette.json",
+      "bytes": 492,
+      "sha256": "8412b93d4f672e45d0ce7daa492df9cd6f001b9927db7967e76d2f621487d329"
+    },
+    {
+      "path": "packs/multiview-mystery/provenance.json",
+      "bytes": 4797,
+      "sha256": "db9993ce1ae527ee180f6a7658674712468c12c8fb8c92d70702d12b2ec84e89"
+    },
+    {
+      "path": "packs/multiview-mystery/source-current/THIRD_PARTY_NOTICES.md",
+      "bytes": 644,
+      "sha256": "8ab45d96ce01976d8ba24a677089b761502def0a222715b5ed142000ac994a06"
+    },
+    {
+      "path": "packs/multiview-mystery/source-current/dist/app.js",
+      "bytes": 18788,
+      "sha256": "3439ec71b5297cab7c646962f946ed03cc9624577cb44fa69e6251128980b0bf"
+    },
+    {
+      "path": "packs/multiview-mystery/source-current/dist/fonts/LICENSE.txt",
+      "bytes": 4314,
+      "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3"
+    },
+    {
+      "path": "packs/multiview-mystery/source-current/dist/fonts/comic-neue-bold.woff2",
+      "bytes": 18772,
+      "sha256": "0c1d3e1eaa4f7b42cd9db94b4dd66ad552f827b2fe008956cbea53775448ba82"
+    },
+    {
+      "path": "packs/multiview-mystery/source-current/dist/fonts/comic-neue-regular.woff2",
+      "bytes": 19136,
+      "sha256": "30032375de9172d3d74f03e435544f19b40f09dce208204ee9b9e92b29ef36b3"
+    },
+    {
+      "path": "packs/multiview-mystery/source-current/dist/index.html",
+      "bytes": 8915,
+      "sha256": "a5644f8cc759b49ea5fcb15e8306723f9d2685297181c327f311794d10a06aad"
+    },
+    {
+      "path": "packs/multiview-mystery/source-current/dist/logic.mjs",
+      "bytes": 4378,
+      "sha256": "9671c2505aff4edf3a5b31d53a4c1359db6da9ec705934c0e327266d2c25c1af"
+    },
+    {
+      "path": "packs/multiview-mystery/source-current/dist/reference.mjs",
+      "bytes": 13041,
+      "sha256": "a1bec1a2d89499fa73991d44c76645bd6911dad8e8591d1aee802efa784c7d2a"
+    },
+    {
+      "path": "packs/multiview-mystery/source-current/dist/scene.mjs",
+      "bytes": 6174,
+      "sha256": "4c1a14e5e8951b097b67506d8a98d9efa7b04c83e1ff16fdbb028492b5ef8b74"
+    },
+    {
+      "path": "packs/multiview-mystery/source-current/dist/style.css",
+      "bytes": 14501,
+      "sha256": "5cbb524038383f7e23d8cb7c136fb23c0720ba0d459da592f0b79e78b381c12f"
+    },
+    {
+      "path": "packs/multiview-mystery/source-current/release.json",
+      "bytes": 284,
+      "sha256": "aaf5aca2bdc8caad99eb6295ab3ddf49d0d550e39eedaae4df003ad76580cf0b"
+    },
+    {
+      "path": "packs/multiview-mystery/source-original/dist/app.js",
+      "bytes": 13165,
+      "sha256": "8b9dae6cde4d870e212a6acf361f654a57e4102033f93b8aa81a287fa6ea2f62"
+    },
+    {
+      "path": "packs/multiview-mystery/source-original/dist/index.html",
+      "bytes": 7144,
+      "sha256": "7b2598b865c99193494e00634cb6fcdab9e661ecc88a48dd81e83df9ba2b9707"
+    },
+    {
+      "path": "packs/multiview-mystery/source-original/dist/logic.mjs",
+      "bytes": 4378,
+      "sha256": "b0dcc7bee212462379a877161a63905e9223d849ac7eea40ccb90200a80fbf18"
+    },
+    {
+      "path": "packs/multiview-mystery/source-original/dist/scene.mjs",
+      "bytes": 5941,
+      "sha256": "19dabc0c2f6617b1388da513c8c98d114a121bda99aad5a6c2269a19b2ba1dbb"
+    },
+    {
+      "path": "packs/multiview-mystery/source-original/dist/style.css",
+      "bytes": 10721,
+      "sha256": "863ee0743406d5774005f770f0f82910d7db9c296d5d86513db7888a234b659b"
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "bytes": 4653,
+      "sha256": "d08d1bd3c94cb721a16adcad3a296f07644dccfb0fc9310fd73fe2fd2019d206"
+    },
+    {
+      "path": "tests/verify-inventory.test.mjs",
+      "bytes": 2568,
+      "sha256": "0a150efb39ea9b34cfbaca12dde83ca9e6cb3762a1be5ef6d83f1881f527afeb"
+    }
+  ],
+  "purpose": "Exact original dirty/staged snapshot; not a merge-ready change or new build. Original workspace untouched. No deletion candidates copied."
+}
