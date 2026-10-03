@@ -20,3 +20,7 @@ Preserve each asset's original licensing. Do not assume a repository-wide licens
 when none is provided, or add private curriculum/CAD material to a public pack.
 
 For generated exports, follow [Export Identity](docs/BUILD_IDENTITY.md).
+
+Follow [Shared Edugames Standards](docs/EDUGAMES-STANDARDS.md) when creating
+new graphics and interfaces. Preserve original source snapshots separately from
+updated review snapshots, and label unmerged sources clearly.

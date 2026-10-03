@@ -1,0 +1,27 @@
+{
+  "variant": "Multiview Pastel Columns",
+  "columns": [
+    "#76cfb5",
+    "#90bdf1",
+    "#efbb6b",
+    "#c6a3ed"
+  ],
+  "faceBrightness": [
+    0.86,
+    0.65,
+    1.2,
+    0.55,
+    1,
+    0.75
+  ],
+  "outline": "#24424f",
+  "floor": [
+    "#355660",
+    "#30505b"
+  ],
+  "frontEdge": "#e5b24f",
+  "targetFill": "#bbdfd5",
+  "targetStroke": "#225f58",
+  "studentOutline": "#bc6710",
+  "notes": "Colors are coordinate-stable by (x+z)%4. Face shading is procedural, not baked textures."
+}

@@ -7,6 +7,7 @@ models, textures, icons, fonts, and visual references with traceable origins.
 
 | Pack | Contents | Source |
 | --- | --- | --- |
+| [Multiview Mystery](packs/multiview-mystery/README.md) | Original and current procedural 3D/Canvas sources; SVG generators and icons; fonts; pastel palette | Unmerged game review, September 29, 2026 |
 | [Levers: Load, Effort, and Distance](packs/levers-load-effort-distance/README.md) | 15 GLB models; procedural Three.js sources; wood texture; SVG diagram and icon; fonts; reference screenshots | Latest merged game snapshot, September 29, 2026 |
 | [MeasureTwice](packs/measure-twice/README.md) | Sunny Woodshop; 17-piece house; comparison rack; feedback materials; local procedural demo | Final unmerged game review, September 30, 2026 |
 | [ThreeKindsOfLevers](packs/three-kinds-of-levers/README.md) | Procedural classroom; four desks; door/extinguisher; lever; six SVG examples; feedback demo | Pinned unmerged review source, September 30, 2026 |
@@ -14,6 +15,8 @@ models, textures, icons, fonts, and visual references with traceable origins.
 
 Start with the pack's [asset catalog](packs/levers-load-effort-distance/CATALOG.md)
 to choose an object or the [visual style guide](STYLE_GUIDE.md) to match its look.
+
+See [Shared Edugames Standards](docs/EDUGAMES-STANDARDS.md) for typography, nested reference, curricular-goal mapping, and the three required play purposes.
 
 ## Organization
 
